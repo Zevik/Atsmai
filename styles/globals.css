@@ -4,11 +4,10 @@
 
 :root {
   direction: rtl;
-  overflow-x: hidden;
 }
 
 body {
-  @apply bg-secondary overflow-x-hidden;
+  @apply bg-secondary;
 }
 
 /* Custom styles for tables */
