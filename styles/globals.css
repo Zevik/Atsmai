@@ -7,20 +7,20 @@
 }
 
 body {
-  @apply bg-gray-100;
+  @apply bg-secondary/20;
 }
 
 /* Custom styles for tables */
 table {
-  @apply w-full border-collapse border border-gray-300 my-4;
+  @apply w-full border-collapse border-2 border-primary/20 my-4 bg-white rounded-lg overflow-hidden;
 }
 
 th {
-  @apply bg-gray-50 text-right px-4 py-2 border border-gray-300;
+  @apply bg-primary/10 text-right px-4 py-3 border-b-2 border-primary/20 text-primary font-bold;
 }
 
 td {
-  @apply px-4 py-2 border border-gray-300;
+  @apply px-4 py-3 border-b border-primary/10;
 }
 
 /* Custom styles for lists */
@@ -31,4 +31,17 @@ ul, ol {
 /* Custom styles for sections */
 section {
   @apply bg-white rounded-lg shadow-md p-6 mb-6;
+}
+
+h3 {
+  @apply text-primary/90 border-r-4 border-primary pr-2;
+}
+
+/* Hover effects */
+tr:hover {
+  @apply bg-secondary/5;
+}
+
+li {
+  @apply transition-colors duration-200 hover:text-primary;
 }

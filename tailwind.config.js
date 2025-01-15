@@ -8,6 +8,11 @@ module.exports = {
   theme: {
     extend: {
       direction: ['rtl'],
+      colors: {
+        primary: '#60BFC1',
+        secondary: '#BADFD7',
+        accent: '#F7E3DB',
+      }
     },
   },
   plugins: [],
