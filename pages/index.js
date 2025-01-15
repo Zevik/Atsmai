@@ -1,10 +1,6 @@
 export default function Home() {
-  return (
-    <div className="min-h-screen bg-secondary/20 flex flex-col">
-      <header className="bg-primary text-white p-4 text-center">
-        <h1 className="text-2xl font-bold">&nbsp;</h1>
-      </header>
-      <main className="flex-grow p-4">
+    return (
+      <div className="min-h-screen bg-secondary/20 p-4">
         <div className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-lg">
           <h1 className="text-3xl font-bold mb-8 text-primary text-center mt-8">עצמאים בישראל</h1>
           <section className="mb-8 hover:shadow-lg transition-shadow transition-transform duration-300 hover:-translate-y-1">
@@ -12,9 +8,9 @@ export default function Home() {
             <table className="table-fixed w-full text-sm bg-white">
               <thead>
                 <tr>
-                  <th className="py-2 w-1/3">קריטריון</th>
-                  <th className="py-2 w-1/3">עוסק פטור</th>
-                  <th className="py-2 w-1/3">עוסק מורשה</th>
+                  <th className="py-2">קריטריון</th>
+                  <th className="py-2">עוסק פטור</th>
+                  <th className="py-2">עוסק מורשה</th>
                 </tr>
               </thead>
               <tbody>
@@ -31,7 +27,7 @@ export default function Home() {
                 <tr>
                   <td className="border px-4 py-2">דיווח למע"מ</td>
                   <td className="border px-4 py-2">פטור מדיווחים שוטפים</td>
-                  <td className="border px-4 py-2">חודשי/ דו-חודשי</td>
+                  <td className="border px-4 py-2">חודשי/דו-חודשי</td>
                 </tr>
                 <tr>
                   <td className="border px-4 py-2">קיזוז מע"מ תשומות</td>
@@ -46,8 +42,8 @@ export default function Home() {
             <table className="table-fixed w-full text-sm bg-white">
               <thead>
                 <tr>
-                  <th className="py-2 w-1/2">קריטריון</th>
-                  <th className="py-2 w-1/2">פרטים</th>
+                  <th className="py-2">קריטריון</th>
+                  <th className="py-2">פרטים</th>
                 </tr>
               </thead>
               <tbody>
@@ -75,8 +71,8 @@ export default function Home() {
             <table className="table-fixed w-full text-sm bg-white">
               <thead>
                 <tr>
-                  <th className="py-2 w-1/2">קריטריון</th>
-                  <th className="py-2 w-1/2">פרטים</th>
+                  <th className="py-2">קריטריון</th>
+                  <th className="py-2">פרטים</th>
                 </tr>
               </thead>
               <tbody>
@@ -133,11 +129,6 @@ export default function Home() {
             </div>
           </section>
         </div>
-      </main>
-      <footer className="bg-primary text-white p-4 text-center">
-        <p className="mb-1">זאביק אבינר 0546609385</p>
-        <p>כל הזכויות שמורות</p>
-      </footer>
-    </div>
-  )
-}
+      </div>
+    )
+  }
