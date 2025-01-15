@@ -7,37 +7,28 @@
 }
 
 body {
-  @apply bg-secondary/20;
+  @apply bg-gray-100;
 }
 
+/* Custom styles for tables */
 table {
-  @apply w-full border-collapse border-2 border-primary/20 my-4 bg-white rounded-lg overflow-hidden;
+  @apply w-full border-collapse border border-gray-300 my-4;
 }
 
 th {
-  @apply bg-primary/10 text-right px-4 py-3 border-b-2 border-primary/20 text-primary font-bold;
+  @apply bg-gray-50 text-right px-4 py-2 border border-gray-300;
 }
 
 td {
-  @apply px-4 py-3 border-b border-primary/10;
+  @apply px-4 py-2 border border-gray-300;
 }
 
+/* Custom styles for lists */
 ul, ol {
   @apply space-y-2;
 }
 
+/* Custom styles for sections */
 section {
   @apply bg-white rounded-lg shadow-md p-6 mb-6;
-}
-
-h3 {
-  @apply text-primary/90 border-r-4 border-primary pr-2;
-}
-
-tr:hover {
-  @apply bg-secondary/5;
-}
-
-li {
-  @apply transition-colors duration-200 hover:text-primary;
 }
