@@ -32,6 +32,20 @@ const EmployerObligations = () => {
         <section className="mb-8 hover:shadow-lg transition-shadow transition-transform duration-300 hover:-translate-y-1">
           <h2 className="text-xl font-semibold mb-4 text-primary border-b-2 border-primary pb-2">מתן חופשה שנתית ודמי הבראה</h2>
           <p>העובד זכאי לחופשה שנתית בתשלום ולדמי הבראה כקבוע בחוק.</p>
+          
+          {/* Added sub-section: דיווח ותיעוד שעות עבודה */}
+          <h3 className="font-semibold mb-2">דיווח ותיעוד שעות עבודה</h3>
+          <ul className="list-disc list-inside ml-4">
+            <li>חובה לנהל מערכת מסודרת לרישום שעות עבודה, במיוחד בעבודה מרחוק או מהבית</li>
+            <li>יש לתעד את שעות העבודה בפועל ולשמור את הרישומים למשך 7 שנים לפחות</li>
+          </ul>
+          
+          {/* Added sub-section: מערכת דיווח נגישה ואמינה */}
+          <h3 className="font-semibold mb-2">מערכת דיווח נגישה ואמינה</h3>
+          <ul className="list-disc list-inside ml-4">
+            <li>המעביד חייב לספק לעובד אמצעי דיווח שעות נגיש ואמין (כמו אפליקציה או מערכת מקוונת)</li>
+            <li>המערכת צריכה לאפשר מעקב ואימות של שעות העבודה גם בעבודה מרחוק</li>
+          </ul>
         </section>
         <section className="mb-8 hover:shadow-lg transition-shadow transition-transform duration-300 hover:-translate-y-1">
           <h2 className="text-xl font-semibold mb-4 text-primary border-b-2 border-primary pb-2">שמירה על תנאי בטיחות ובריאות בעבודה</h2>
