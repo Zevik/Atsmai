@@ -16,11 +16,11 @@ table {
 }
 
 th {
-  @apply bg-gray-50 text-right px-2 py-2 border border-gray-300 text-sm;
+  @apply bg-gray-50 text-right px-2 py-2 border border-gray-300 text-sm whitespace-nowrap;
 }
 
 td {
-  @apply px-2 py-2 border border-gray-300 text-sm break-words;
+  @apply px-2 py-2 border border-gray-300 text-sm whitespace-nowrap;
 }
 
 @media (min-width: 768px) {
