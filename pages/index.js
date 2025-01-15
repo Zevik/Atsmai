@@ -27,7 +27,7 @@ export default function Home() {
               <tr>
                 <td className="border px-4 py-2">דיווח למע"מ</td>
                 <td className="border px-4 py-2">פטור מדיווחים שוטפים</td>
-                <td className="border px-4 py-2">חודשי/דו-חודשי</td>
+                <td className="border px-4 py-2">חודשי/ דו-חודשי</td>
               </tr>
               <tr>
                 <td className="border px-4 py-2">קיזוז מע"מ תשומות</td>
