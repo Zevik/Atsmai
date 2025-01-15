@@ -3,7 +3,7 @@ export default function Home() {
     <div className="min-h-screen bg-secondary/20 p-4">
       <div className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-lg">
         <h1 className="text-3xl font-bold mb-8 text-primary text-center mt-8">עצמאים בישראל</h1>
-        <section className="mb-8 hover:shadow-lg transition-shadow duration-300">
+        <section className="mb-8 hover:shadow-lg transition-shadow transition-transform duration-300 hover:-translate-y-1">
           <h2 className="text-xl font-semibold mb-4 text-primary border-b-2 border-primary pb-2">סיווגים במע"מ</h2>
           <table className="min-w-full bg-white">
             <thead>
@@ -37,7 +37,7 @@ export default function Home() {
             </tbody>
           </table>
         </section>
-        <section className="mb-8 hover:shadow-lg transition-shadow duration-300">
+        <section className="mb-8 hover:shadow-lg transition-shadow transition-transform duration-300 hover:-translate-y-1">
           <h2 className="text-xl font-semibold mb-4 text-primary border-b-2 border-primary pb-2">סיווג במס הכנסה (עוסק זעיר)</h2>
           <table className="min-w-full bg-white">
             <thead>
@@ -66,7 +66,7 @@ export default function Home() {
             </tbody>
           </table>
         </section>
-        <section className="mb-8 hover:shadow-lg transition-shadow duration-300">
+        <section className="mb-8 hover:shadow-lg transition-shadow transition-transform duration-300 hover:-translate-y-1">
           <h2 className="text-xl font-semibold mb-4 text-primary border-b-2 border-primary pb-2">חיוב ביטוח לאומי (זהה לכולם)</h2>
           <table className="min-w-full bg-white">
             <thead>
@@ -87,7 +87,7 @@ export default function Home() {
             </tbody>
           </table>
         </section>
-        <section className="mb-8 p-6 bg-accent/10 rounded-lg hover:shadow-lg transition-shadow duration-300">
+        <section className="mb-8 p-6 bg-accent/10 rounded-lg hover:shadow-lg transition-shadow transition-transform duration-300 hover:-translate-y-1">
           <h2 className="text-xl font-semibold mb-4 text-primary border-b-2 border-primary pb-2">הערות חשובות</h2>
           <ul className="list-disc list-inside">
             <li>כל עוסק (פטור או מורשה) שהכנסתו השנתית עד 120,000 ₪ יכול לבחור במסלול עוסק זעיר במס הכנסה</li>
@@ -109,7 +109,7 @@ export default function Home() {
             </ul>
           </div>
         </section>
-        <section className="mb-8 p-6 bg-accent/10 rounded-lg hover:shadow-lg transition-shadow duration-300">
+        <section className="mb-8 p-6 bg-accent/10 rounded-lg hover:shadow-lg transition-shadow transition-transform duration-300 hover:-translate-y-1">
           <h2 className="text-xl font-semibold mb-4 text-primary border-b-2 border-primary pb-2">הוצאות מוכרות והטבות מס חשובות</h2>
           <div>
             <h3 className="font-bold mb-2">קרן השתלמות:</h3>
