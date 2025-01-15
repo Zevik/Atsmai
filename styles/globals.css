@@ -2,4 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Add any custom global styles here */
+:root {
+  direction: rtl;
+}
+
+body {
+  @apply bg-gray-100;
+}
+
+/* Custom styles for tables */
+table {
+  @apply w-full border-collapse border border-gray-300 my-4;
+}
+
+th {
+  @apply bg-gray-50 text-right px-4 py-2 border border-gray-300;
+}
+
+td {
+  @apply px-4 py-2 border border-gray-300;
+}
+
+/* Custom styles for lists */
+ul, ol {
+  @apply space-y-2;
+}
+
+/* Custom styles for sections */
+section {
+  @apply bg-white rounded-lg shadow-md p-6 mb-6;
+}
