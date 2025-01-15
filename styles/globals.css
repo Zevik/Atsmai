@@ -16,11 +16,21 @@ table {
 }
 
 th {
-  @apply bg-gray-50 text-right px-4 py-2 border border-gray-300;
+  @apply bg-gray-50 text-right px-2 py-2 border border-gray-300 text-sm;
 }
 
 td {
-  @apply px-4 py-2 border border-gray-300;
+  @apply px-2 py-2 border border-gray-300 text-sm break-words;
+}
+
+@media (min-width: 768px) {
+  th {
+    @apply px-4 text-base;
+  }
+  
+  td {
+    @apply px-4 text-base;
+  }
 }
 
 /* Custom styles for lists */
