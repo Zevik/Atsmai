@@ -5,37 +5,39 @@ export default function Home() {
         <h1 className="text-3xl font-bold mb-8 text-primary text-center mt-8">עצמאים בישראל</h1>
         <section className="mb-8 hover:shadow-lg transition-shadow transition-transform duration-300 hover:-translate-y-1">
           <h2 className="text-xl font-semibold mb-4 text-primary border-b-2 border-primary pb-2">סיווגים במע"מ</h2>
-          <table className="min-w-full bg-white">
-            <thead>
-              <tr>
-                <th className="py-2">קריטריון</th>
-                <th className="py-2">עוסק פטור</th>
-                <th className="py-2">עוסק מורשה</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td className="border px-4 py-2">תקרת הכנסות למע"מ</td>
-                <td className="border px-4 py-2">עד 120,000 ₪</td>
-                <td className="border px-4 py-2">ללא הגבלה</td>
-              </tr>
-              <tr>
-                <td className="border px-4 py-2">חיוב מע"מ</td>
-                <td className="border px-4 py-2">פטור מגביית מע"מ</td>
-                <td className="border px-4 py-2">חייב בגביית מע"מ</td>
-              </tr>
-              <tr>
-                <td className="border px-4 py-2">דיווח למע"מ</td>
-                <td className="border px-4 py-2">פטור מדיווחים שוטפים</td>
-                <td className="border px-4 py-2">חודשי/דו-חודשי</td>
-              </tr>
-              <tr>
-                <td className="border px-4 py-2">קיזוז מע"מ תשומות</td>
-                <td className="border px-4 py-2">לא יכול לקזז</td>
-                <td className="border px-4 py-2">יכול לקזז</td>
-              </tr>
-            </tbody>
-          </table>
+          <div className="overflow-x-auto">
+            <table className="min-w-full bg-white">
+              <thead>
+                <tr>
+                  <th className="py-2">קריטריון</th>
+                  <th className="py-2">עוסק פטור</th>
+                  <th className="py-2">עוסק מורשה</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="border px-4 py-2">תקרת הכנסות למע"מ</td>
+                  <td className="border px-4 py-2">עד 120,000 ₪</td>
+                  <td className="border px-4 py-2">ללא הגבלה</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-2">חיוב מע"מ</td>
+                  <td className="border px-4 py-2">פטור מגביית מע"מ</td>
+                  <td className="border px-4 py-2">חייב בגביית מע"מ</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-2">דיווח למע"מ</td>
+                  <td className="border px-4 py-2">פטור מדיווחים שוטפים</td>
+                  <td className="border px-4 py-2">חודשי/דו-חודשי</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-2">קיזוז מע"מ תשומות</td>
+                  <td className="border px-4 py-2">לא יכול לקזז</td>
+                  <td className="border px-4 py-2">יכול לקזז</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </section>
         <section className="mb-8 hover:shadow-lg transition-shadow transition-transform duration-300 hover:-translate-y-1">
           <h2 className="text-xl font-semibold mb-4 text-primary border-b-2 border-primary pb-2">סיווג במס הכנסה (עוסק זעיר)</h2>
