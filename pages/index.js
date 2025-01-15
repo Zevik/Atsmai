@@ -8,9 +8,9 @@ export default function Home() {
           <table className="table-fixed w-full text-sm bg-white">
             <thead>
               <tr>
-                <th className="py-2">קריטריון</th>
-                <th className="py-2">עוסק פטור</th>
-                <th className="py-2">עוסק מורשה</th>
+                <th className="py-2 w-1/3">קריטריון</th>
+                <th className="py-2 w-1/3">עוסק פטור</th>
+                <th className="py-2 w-1/3">עוסק מורשה</th>
               </tr>
             </thead>
             <tbody>
@@ -42,8 +42,8 @@ export default function Home() {
           <table className="table-fixed w-full text-sm bg-white">
             <thead>
               <tr>
-                <th className="py-2">קריטריון</th>
-                <th className="py-2">פרטים</th>
+                <th className="py-2 w-1/2">קריטריון</th>
+                <th className="py-2 w-1/2">פרטים</th>
               </tr>
             </thead>
             <tbody>
@@ -71,8 +71,8 @@ export default function Home() {
           <table className="table-fixed w-full text-sm bg-white">
             <thead>
               <tr>
-                <th className="py-2">קריטריון</th>
-                <th className="py-2">פרטים</th>
+                <th className="py-2 w-1/2">קריטריון</th>
+                <th className="py-2 w-1/2">פרטים</th>
               </tr>
             </thead>
             <tbody>
