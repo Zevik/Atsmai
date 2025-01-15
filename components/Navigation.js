@@ -9,7 +9,7 @@ export default function Navigation() {
   const links = [
     { href: '/', text: 'דף הבית' },
     { href: '/employer-obligations', text: 'חובות המעביד' },
-    { href: '/worker-employer-relations', text: 'יחסי עובד-מעביד בעידן הדיגיטלי' },
+    { href: '/worker-employer-relations', text: 'יחסי עובד-מעביד בעידן הפרילנסרים' }, // Changed menu item name
     { href: '/deposit-fund-for-freelancers', text: 'הפקדות לקרן השתלמות לעצמאים' }, // Added new menu item
   ];
 
@@ -41,9 +41,12 @@ export default function Navigation() {
                 key={link.href} 
                 href={link.href}
               >
-                <a className={`px-3 py-2 rounded-md text-white hover:bg-primary/80 transition-colors ${
-                  isActive(link.href) ? 'bg-primary/80' : ''
-                }`}>
+                <a 
+                  className={`px-3 py-2 rounded-md text-white hover:bg-primary/80 transition-colors ${
+                    isActive(link.href) ? 'bg-primary/80 cursor-default' : ''
+                  }`}
+                  onClick={(e) => isActive(link.href) && e.preventDefault()}
+                >
                   {link.text}
                 </a>
               </Link>
@@ -62,9 +65,9 @@ export default function Navigation() {
                 >
                   <a 
                     className={`block px-3 py-2 rounded-md text-white hover:bg-primary/80 transition-colors ${
-                      isActive(link.href) ? 'bg-primary/80' : ''
+                      isActive(link.href) ? 'bg-primary/80 cursor-default' : ''
                     }`}
-                    onClick={() => setIsOpen(false)}
+                    onClick={(e) => isActive(link.href) && e.preventDefault()}
                   >
                     {link.text}
                   </a>
