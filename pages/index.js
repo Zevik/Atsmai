@@ -130,11 +130,6 @@ export default function Home() {
             </ul>
           </div>
         </section>
-        <div className="text-center mt-8">
-          <Link href="/employer-obligations">
-            <a className="inline-block text-primary hover:text-primary/80 underline transition-colors">חובות המעביד</a>
-          </Link>
-        </div>
       </div>
     </div>
   )
