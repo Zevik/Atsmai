@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <div className="min-h-screen bg-secondary/20 overflow-x-hidden p-4">
-      <div className="w-full max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-lg overflow-hidden">
+      <div className="w-full max-w-4xl mx-auto bg-white p-4 md:p-8 rounded-lg shadow-lg overflow-hidden">
         <h1 className="text-3xl font-bold mb-8 text-primary text-center mt-8">עצמאים בישראל</h1>
         <section className="mb-8 hover:shadow-lg transition-shadow transition-transform duration-300 hover:-translate-y-1">
           <h2 className="text-xl font-semibold mb-4 text-primary border-b-2 border-primary pb-2">סיווגים במע"מ</h2>
