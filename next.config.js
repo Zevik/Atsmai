@@ -1,4 +1,7 @@
 module.exports = {
   reactStrictMode: true,
-  // Add any custom configuration here
+  output: 'export',
+  images: {
+    unoptimized: true
+  }
 }
