@@ -4,11 +4,10 @@ export default function Home() {
       <div className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-lg">
         <h1 className="text-2xl font-bold mb-4">עצמאים בישראל</h1>
         <section className="mb-8">
-          <h2 className="text-xl font-semibold mb-2">השוואת סוגי עוסקים בישראל (2024-2025)</h2>
+          <h2 className="text-xl font-semibold mb-2">סיווגים במע"מ</h2>
           <table className="min-w-full bg-white">
             <thead>
               <tr>
-                <th className="py-2">סיווגים במע"מ</th>
                 <th className="py-2">קריטריון</th>
                 <th className="py-2">עוסק פטור</th>
                 <th className="py-2">עוסק מורשה</th>
