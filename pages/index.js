@@ -129,6 +129,11 @@ export default function Home() {
               <li>תקרת הפקדה מוכרת: 34,488 ₪ בשנה</li>
             </ul>
           </div>
+          <Link href="/deposit-fund-for-freelancers">
+            <a className="text-blue-500 underline">
+              הפקדות לקרן השתלמות לעצמאים
+            </a>
+          </Link>
         </section>
       </div>
     </div>
