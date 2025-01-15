@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-secondary/20 p-4">
       <div className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-lg">
-        <h1 className="text-3xl font-bold mb-8 text-primary">עצמאים בישראל</h1>
+        <h1 className="text-3xl font-bold mb-8 text-primary text-center mt-8">עצמאים בישראל</h1>
         <section className="mb-8 hover:shadow-lg transition-shadow duration-300">
           <h2 className="text-xl font-semibold mb-4 text-primary border-b-2 border-primary pb-2">סיווגים במע"מ</h2>
           <table className="min-w-full bg-white">
