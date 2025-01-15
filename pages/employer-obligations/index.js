@@ -35,14 +35,14 @@ const EmployerObligations = () => {
           
           {/* Added sub-section: דיווח ותיעוד שעות עבודה */}
           <h3 className="font-semibold mb-2">דיווח ותיעוד שעות עבודה</h3>
-          <ul className="list-disc list-inside ml-4">
+          <ul className="list-disc list-inside ml-4 space-y-2">
             <li>חובה לנהל מערכת מסודרת לרישום שעות עבודה, במיוחד בעבודה מרחוק או מהבית</li>
             <li>יש לתעד את שעות העבודה בפועל ולשמור את הרישומים למשך 7 שנים לפחות</li>
           </ul>
           
           {/* Added sub-section: מערכת דיווח נגישה ואמינה */}
           <h3 className="font-semibold mb-2">מערכת דיווח נגישה ואמינה</h3>
-          <ul className="list-disc list-inside ml-4">
+          <ul className="list-disc list-inside ml-4 space-y-2">
             <li>המעביד חייב לספק לעובד אמצעי דיווח שעות נגיש ואמין (כמו אפליקציה או מערכת מקוונת)</li>
             <li>המערכת צריכה לאפשר מעקב ואימות של שעות העבודה גם בעבודה מרחוק</li>
           </ul>
@@ -53,7 +53,7 @@ const EmployerObligations = () => {
         </section>
         <section className="mb-8 hover:shadow-lg transition-shadow transition-transform duration-300 hover:-translate-y-1">
           <h2 className="text-xl font-semibold mb-4 text-primary border-b-2 border-primary pb-2">איסורים על המעביד</h2>
-          <ul className="list-disc list-inside">
+          <ul className="list-disc list-inside space-y-2">
             <li>אפליה בקבלה לעבודה או בתנאי העבודה: אסור להפלות עובדים על רקע מין, גזע, דת וכדומה.</li>
             <li>הלנת שכר: חובה לשלם את שכר העובד במועד, אחרת יש לשלם פיצויי הלנת שכר.</li>
             <li>העסקה מעבר לשעות המותרות בחוק: יש להקפיד על שעות העבודה המותרות בחוק ולשלם עבור שעות נוספות.</li>
@@ -62,7 +62,7 @@ const EmployerObligations = () => {
         </section>
         <section className="mb-8 hover:shadow-lg transition-shadow transition-transform duration-300 hover:-translate-y-1">
           <h2 className="text-xl font-semibold mb-4 text-primary border-b-2 border-primary pb-2">זכויות המעביד</h2>
-          <ul className="list-disc list-inside">
+          <ul className="list-disc list-inside space-y-2">
             <li>קביעת נהלי עבודה וכללי התנהגות: המעביד רשאי לקבוע נהלים וכללי התנהגות סבירים במקום העבודה.</li>
             <li>פיקוח על ביצוע העבודה: המעביד רשאי לפקח על עבודת העובדים בצורה סבירה.</li>
             <li>דרישה לשמירה על סודיות: ניתן לדרוש מהעובד לשמור על סודיות מידע עסקי.</li>
