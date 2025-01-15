@@ -10,6 +10,7 @@ export default function Navigation() {
     { href: '/', text: 'דף הבית' },
     { href: '/employer-obligations', text: 'חובות המעביד' },
     { href: '/worker-employer-relations', text: 'יחסי עובד-מעביד בעידן הדיגיטלי' },
+    { href: '/deposit-fund-for-freelancers', text: 'הפקדות לקרן השתלמות לעצמאים' }, // Added new menu item
   ];
 
   const isActive = (path) => router.pathname === path;
