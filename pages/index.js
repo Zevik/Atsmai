@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-secondary/20 overflow-x-hidden p-4">
@@ -128,6 +130,11 @@ export default function Home() {
             </ul>
           </div>
         </section>
+        <div className="text-center mt-8">
+          <Link href="/employer-obligations">
+            <a className="text-primary underline">חובות המעביד</a>
+          </Link>
+        </div>
       </div>
     </div>
   )
