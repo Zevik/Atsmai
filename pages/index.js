@@ -92,39 +92,41 @@ export default function Home() {
           <ul className="list-disc list-inside">
             <li>כל עוסק (פטור או מורשה) שהכנסתו השנתית עד 120,000 ₪ יכול לבחור במסלול עוסק זעיר במס הכנסה</li>
             <li>הבחירה להיות עוסק זעיר לא משפיעה על הסיווג במע"מ</li>
-            <li>עוסק שבחר במסלול זעיר:
-              <ul className="list-disc list-inside ml-4">
-                <li>נהנה מ-30% הוצאות אוטומטיות (למעט ביטוח לאומי)</li>
-                <li>חייב להציג קבלות עבור תשלומי ביטוח לאומי כדי להכיר בהן כהוצאה</li>
-                <li>פטור מדוח שנתי מלא למס הכנסה</li>
-              </ul>
-            </li>
-            <li>עוסק שלא בחר במסלול זעיר:
-              <ul className="list-disc list-inside ml-4">
-                <li>מדווח על הוצאות לפי קבלות</li>
-                <li>חייב בדוח שנתי מלא למס הכנסה</li>
-              </ul>
-            </li>
           </ul>
+          <div className="mt-4">
+            <h3 className="font-bold mb-2">עוסק שבחר במסלול זעיר:</h3>
+            <ul className="list-disc list-inside ml-4">
+              <li>נהנה מ-30% הוצאות אוטומטיות (למעט ביטוח לאומי)</li>
+              <li>חייב להציג קבלות עבור תשלומי ביטוח לאומי כדי להכיר בהן כהוצאה</li>
+              <li>פטור מדוח שנתי מלא למס הכנסה</li>
+            </ul>
+          </div>
+          <div className="mt-4">
+            <h3 className="font-bold mb-2">עוסק שלא בחר במסלול זעיר:</h3>
+            <ul className="list-disc list-inside ml-4">
+              <li>מדווח על הוצאות לפי קבלות</li>
+              <li>חייב בדוח שנתי מלא למס הכנסה</li>
+            </ul>
+          </div>
         </section>
         <section className="mb-8">
           <h2 className="text-xl font-semibold mb-2">הוצאות מוכרות והטבות מס חשובות</h2>
-          <ul className="list-disc list-inside">
-            <li>קרן השתלמות:
-              <ul className="list-disc list-inside ml-4">
-                <li>הוצאה מוכרת: עד 4.5% מהרווח השנתי (מקסימום 11,925 ₪)</li>
-                <li>פטור ממס רווחי הון: על הפקדות עד 20,520 ₪ בשנה</li>
-                <li>חשוב: הפטור ממס רווחי הון לא תלוי בגובה ההכנסה</li>
-              </ul>
-            </li>
-            <li>קרן פנסיה:
-              <ul className="list-disc list-inside ml-4">
-                <li>זיכוי מס: 35% מההפקדה המוכרת</li>
-                <li>הוצאה מוכרת: עד 16.5% מהרווח השנתי</li>
-                <li>תקרת הפקדה מוכרת: 34,488 ₪ בשנה</li>
-              </ul>
-            </li>
-          </ul>
+          <div>
+            <h3 className="font-bold mb-2">קרן השתלמות:</h3>
+            <ul className="list-disc list-inside ml-4">
+              <li>הוצאה מוכרת: עד 4.5% מהרווח השנתי (מקסימום 11,925 ₪)</li>
+              <li>פטור ממס רווחי הון: על הפקדות עד 20,520 ₪ בשנה</li>
+              <li>חשוב: הפטור ממס רווחי הון לא תלוי בגובה ההכנסה</li>
+            </ul>
+          </div>
+          <div className="mt-4">
+            <h3 className="font-bold mb-2">קרן פנסיה:</h3>
+            <ul className="list-disc list-inside ml-4">
+              <li>זיכוי מס: 35% מההפקדה המוכרת</li>
+              <li>הוצאה מוכרת: עד 16.5% מהרווח השנתי</li>
+              <li>תקרת הפקדה מוכרת: 34,488 ₪ בשנה</li>
+            </ul>
+          </div>
         </section>
       </div>
     </div>
