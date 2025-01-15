@@ -8,7 +8,8 @@ export default function Navigation() {
 
   const links = [
     { href: '/', text: 'דף הבית' },
-    { href: '/employer-obligations', text: 'חובות המעביד' }
+    { href: '/employer-obligations', text: 'חובות המעביד' },
+    { href: '/worker-employer-relations', text: 'יחסי עובד-מעביד בעידן הדיגיטלי' },
   ];
 
   const isActive = (path) => router.pathname === path;
