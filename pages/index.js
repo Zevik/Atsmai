@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-secondary/20 flex flex-col">
       <header className="bg-primary text-white p-4 text-center">
-        <h1 className="text-2xl font-bold">עצמאים בישראל</h1>
+        <h1 className="text-2xl font-bold">&nbsp;</h1>
       </header>
       <main className="flex-grow p-4">
         <div className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-lg">
@@ -31,7 +31,7 @@ export default function Home() {
                 <tr>
                   <td className="border px-4 py-2">דיווח למע"מ</td>
                   <td className="border px-4 py-2">פטור מדיווחים שוטפים</td>
-                  <td className="border px-4 py-2">חודשי/דו-חודשי</td>
+                  <td className="border px-4 py-2">חודשי / דו-חודשי</td>
                 </tr>
                 <tr>
                   <td className="border px-4 py-2">קיזוז מע"מ תשומות</td>
@@ -135,7 +135,8 @@ export default function Home() {
         </div>
       </main>
       <footer className="bg-primary text-white p-4 text-center">
-        <p>© 2024 עצמאים בישראל. כל הזכויות שמורות.</p>
+        <p className="mb-1">זאביק אבינר 0546609385</p>
+        <p>כל הזכויות שמורות</p>
       </footer>
     </div>
   )
