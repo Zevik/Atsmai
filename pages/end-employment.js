@@ -1,5 +1,4 @@
 import React from 'react';
-export default EndEmployment;
 
 const EndEmployment = () => {
   return (
