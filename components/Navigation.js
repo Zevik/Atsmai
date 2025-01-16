@@ -9,7 +9,7 @@ export default function Navigation() {
   const links = [
     { href: '/', text: 'דף הבית' },
     { href: '/employer-obligations', text: 'חובות המעביד' },
-    { href: '/worker-employer-relations', text: 'יחסי עובד-מעביד בעידן הפרילנסרים' }, // Changed menu item name
+    { href: '/worker-employer-relations', text: 'יחסי עובד-מעביד' }, // Changed menu item text
     { href: '/deposit-fund-for-freelancers', text: 'קרן השתלמות' }, // Changed menu item text
     { href: '/practical-guide-global-contract', text: 'העסקה בחוזה גלובלי' }, // Changed menu item text
     { href: '/end-employment', text: 'סיום העסקה' }, // Added new menu item
