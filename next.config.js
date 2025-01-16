@@ -3,5 +3,6 @@ module.exports = {
   output: 'export',
   images: {
     unoptimized: true
-  }
+  },
+  // Ensure all necessary configurations for routing are present
 }
