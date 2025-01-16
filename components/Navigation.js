@@ -10,8 +10,8 @@ export default function Navigation() {
     { href: '/', text: 'דף הבית' },
     { href: '/employer-obligations', text: 'חובות המעביד' },
     { href: '/worker-employer-relations', text: 'יחסי עובד-מעביד בעידן הפרילנסרים' }, // Changed menu item name
-    { href: '/deposit-fund-for-freelancers', text: 'הפקדות לקרן השתלמות לעצמאים' }, // Added new menu item
-    { href: '/practical-guide-global-contract', text: 'מדריך מעשי להעסקה בחוזה גלובלי' }, // Added new menu item
+    { href: '/deposit-fund-for-freelancers', text: 'קרן השתלמות' }, // Changed menu item text
+    { href: '/practical-guide-global-contract', text: 'העסקה בחוזה גלובלי' }, // Changed menu item text
   ];
 
   const isActive = (path) => router.pathname === path;
