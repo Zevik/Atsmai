@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  @apply bg-secondary;
+  @apply bg-secondary overflow-x-hidden;
 }
 
 /* Custom styles for tables */
@@ -35,4 +35,15 @@ ul, ol {
 /* Custom styles for sections */
 section {
   @apply bg-white rounded-lg shadow-md p-6 mb-6;
+}
+
+/* Ensure no horizontal scrolling on mobile */
+@media (max-width: 767px) {
+  body {
+    @apply overflow-x-hidden;
+  }
+
+  .container {
+    @apply overflow-x-hidden;
+  }
 }
