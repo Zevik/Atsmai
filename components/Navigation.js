@@ -12,6 +12,7 @@ export default function Navigation() {
     { href: '/worker-employer-relations', text: 'יחסי עובד-מעביד בעידן הפרילנסרים' }, // Changed menu item name
     { href: '/deposit-fund-for-freelancers', text: 'קרן השתלמות' }, // Changed menu item text
     { href: '/practical-guide-global-contract', text: 'העסקה בחוזה גלובלי' }, // Changed menu item text
+    { href: '/end-employment', text: 'סיום העסקה' }, // Added new menu item
   ];
 
   const isActive = (path) => router.pathname === path;
