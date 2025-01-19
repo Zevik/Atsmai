@@ -38,7 +38,7 @@ export default function EmployerObligations() {
           <p>חובה לספק לעובד סביבת עבודה בטוחה ובריאה.</p>
         </section>
         <section className="mb-8 hover:shadow-lg transition-shadow transition-transform duration-300 hover:-translate-y-1">
-          <h2 className="text-xl font-semibold mb-4 text-primary border-b-2 border-primary pb-2">איסורים על המעביד</h2>
+          <h2 className="text-xl font-semibold mb-4 text-primary">איסורים על המעביד</h2>
           <ul className="list-disc list-inside">
             <li>אפליה בקבלה לעבודה או בתנאי העבודה: אסור להפלות עובדים על רקע מין, גזע, דת וכדומה.</li>
             <li>הלנת שכר: חובה לשלם את שכר העובד במועד, אחרת יש לשלם פיצויי הלנת שכר.</li>
@@ -47,7 +47,7 @@ export default function EmployerObligations() {
           </ul>
         </section>
         <section className="mb-8 hover:shadow-lg transition-shadow transition-transform duration-300 hover:-translate-y-1">
-          <h2 className="text-xl font-semibold mb-4 text-primary border-b-2 border-primary pb-2">זכויות המעביד</h2>
+          <h2 className="text-xl font-semibold mb-4 text-primary">זכויות המעביד</h2>
           <ul className="list-disc list-inside">
             <li>קביעת נהלי עבודה וכללי התנהגות: המעביד רשאי לקבוע נהלים וכללי התנהגות סבירים במקום העבודה.</li>
             <li>פיקוח על ביצוע העבודה: המעביד רשאי לפקח על עבודת העובדים בצורה סבירה.</li>
