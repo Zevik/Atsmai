@@ -22,6 +22,7 @@ export default function Navigation() {
 
   const handleLinkClick = () => {
     setIsOpen(false);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   return (
