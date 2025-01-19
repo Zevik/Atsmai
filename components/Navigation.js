@@ -15,7 +15,7 @@ export default function Navigation() {
     { href: '/end-employment', text: 'סיום העסקה' }, // Added new menu item
     { href: '/small-business', text: 'עוסק זעיר' }, // Added new menu item
     { href: '/cash-fund', text: 'קרן כספית' }, // Added new menu item
-    { href: '/עצמאים-בישראל', text: 'עצמאים בישראל' }, // Added new menu item
+    { href: '/self-employed-in-israel', text: 'עצמאים בישראל' }, // Updated URL
   ];
 
   const isActive = (path) => router.pathname === path;

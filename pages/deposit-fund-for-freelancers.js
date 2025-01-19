@@ -5,7 +5,7 @@ const DepositFundForFreelancers = () => {
     <div className="min-h-screen bg-secondary/20 overflow-x-hidden p-4">
       <div className="w-full max-w-4xl mx-auto bg-white p-4 md:p-8 rounded-lg shadow-lg overflow-hidden">
         {/* Move the title to the top */}
-        <h1 className="text-3xl font-bold mb-8 text-primary text-center mt-8">קרן השתלמות</h1>
+        <h1 className="text-3xl font-bold mb-8 text-primary text-center mt-8">המתנה הכי שווה שקיבלו העצמאים - קרן השתלמות</h1>
         
         {/* Combined boxed content */}
         <div className="border p-4 mb-4 rounded-lg bg-gray-50">
