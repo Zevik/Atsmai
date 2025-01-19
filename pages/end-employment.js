@@ -11,7 +11,7 @@ const EndEmployment = () => {
           <h2 className="text-xl font-semibold mb-4 text-primary">צעד 1: לפני הפיטורים</h2>
           
           {/* שימוע - חובה חוקית */}
-          <h3 className="text-lg font-semibold">שימוע - חובה חוקית</h3>
+          <h3 className="text-lg font-semibold mb-4">שימוע - חובה חוקית</h3>
           <ul className="list-disc list-inside mb-4">
             <li>זימון בכתב זמן סביר מראש (תלוי בנסיבות ומורכבות המקרה)</li>
             <li>פירוט הסיבות לשקילת הפיטורים בזימון</li>
@@ -21,7 +21,7 @@ const EndEmployment = () => {
           </ul>
           
           {/* בדיקת מגבלות על פיטורים */}
-          <h3 className="text-lg font-semibold">בדיקת מגבלות על פיטורים</h3>
+          <h3 className="text-lg font-semibold mb-4">בדיקת מגבלות על פיטורים</h3>
           <ul className="list-disc list-inside">
             <li>עובדת בהריון (נדרש אישור משרד העבודה)</li>
             <li>חופשת לידה + 60 יום אחרי חזרה מחל"ת שבאה בעקבותיה</li>
@@ -37,7 +37,7 @@ const EndEmployment = () => {
           <h2 className="text-xl font-semibold mb-4 text-primary">צעד 2: הודעה על פיטורים</h2>
           
           {/* הודעה מוקדמת - חובה חוקית */}
-          <h3 className="text-lg font-semibold">הודעה מוקדמת - חובה חוקית</h3>
+          <h3 className="text-lg font-semibold mb-4">הודעה מוקדמת - חובה חוקית</h3>
           <p className="mb-4">לעובד במשכורת (חודשי):</p>
           <ul className="list-disc list-inside mb-4">
             <li>עד 6 חודשי עבודה: יום לכל חודש</li>
@@ -51,7 +51,7 @@ const EndEmployment = () => {
           </ul>
           
           {/* מסירת הודעת פיטורים */}
-          <h3 className="text-lg font-semibold mt-4">מסירת הודעת פיטורים</h3>
+          <h3 className="text-lg font-semibold mb-4 mt-4">מסירת הודעת פיטורים</h3>
           <ul className="list-disc list-inside">
             <li>בכתב בלבד</li>
             <li>ציון תאריך סיום מדויק</li>
@@ -65,7 +65,7 @@ const EndEmployment = () => {
           <h2 className="text-xl font-semibold mb-4 text-primary">צעד 3: חישוב תשלומים</h2>
           
           {/* פיצויי פיטורים (אחרי שנה) */}
-          <h3 className="text-lg font-semibold">פיצויי פיטורים (אחרי שנה)</h3>
+          <h3 className="text-lg font-semibold mb-4">פיצויי פיטורים (אחרי שנה)</h3>
           <ul className="list-disc list-inside mb-4">
             <li>משכורת אחרונה × שנות עבודה</li>
             <li>כולל כל הרכיבים הקבועים</li>
@@ -80,7 +80,7 @@ const EndEmployment = () => {
           </ul>
           
           {/* תשלומים נוספים */}
-          <h3 className="text-lg font-semibold mt-4">תשלומים נוספים</h3>
+          <h3 className="text-lg font-semibold mb-4 mt-4">תשלומים נוספים</h3>
           <ul className="list-disc list-inside">
             <li>פדיון חופשה שלא נוצלה</li>
             <li>דמי הבראה יחסיים</li>
@@ -94,7 +94,7 @@ const EndEmployment = () => {
           <h2 className="text-xl font-semibold mb-4 text-primary">צעד 4: מסמכים נדרשים</h2>
           
           {/* חובה למסור לעובד */}
-          <h3 className="text-lg font-semibold">חובה למסור לעובד</h3>
+          <h3 className="text-lg font-semibold mb-4">חובה למסור לעובד</h3>
           <ul className="list-disc list-inside">
             <li>טופס 161 לשחרור קופות</li>
             <li>מכתב שחרור לקרן פנסיה</li>
@@ -157,5 +157,3 @@ const EndEmployment = () => {
 };
 
 export default EndEmployment;
-
-// ...existing code...
