@@ -13,9 +13,16 @@ export default function Navigation() {
     { href: '/deposit-fund-for-freelancers', text: 'קרן השתלמות' }, // Changed menu item text
     { href: '/practical-guide-global-contract', text: 'העסקה בחוזה גלובלי' }, // Changed menu item text
     { href: '/end-employment', text: 'סיום העסקה' }, // Added new menu item
+    { href: '/small-business', text: 'עוסק זעיר' }, // Added new menu item
+    { href: '/cash-fund', text: 'קרן כספית' }, // Added new menu item
+    { href: '/self-employed-in-israel', text: 'עצמאים בישראל' }, // Updated URL
   ];
 
   const isActive = (path) => router.pathname === path;
+
+  const handleLinkClick = () => {
+    setIsOpen(false);
+  };
 
   return (
     <nav className="bg-primary shadow-lg">
@@ -44,7 +51,7 @@ export default function Navigation() {
                 href={link.href}
               >
                 <a 
-                  className={`px-3 py-2 rounded-md text-white hover:bg-primary/80 transition-colors ${
+                  className={`px-3 py-2 rounded-md text-white text-right hover:bg-primary/80 transition-colors ${
                     isActive(link.href) ? 'bg-primary/80 cursor-default' : ''
                   }`}
                   onClick={(e) => isActive(link.href) && e.preventDefault()}
@@ -69,7 +76,7 @@ export default function Navigation() {
                     className={`block px-3 py-2 rounded-md text-white hover:bg-primary/80 transition-colors ${
                       isActive(link.href) ? 'bg-primary/80 cursor-default' : ''
                     }`}
-                    onClick={(e) => isActive(link.href) && e.preventDefault()}
+                    onClick={handleLinkClick}
                   >
                     {link.text}
                   </a>
