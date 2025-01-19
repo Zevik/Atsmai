@@ -51,7 +51,7 @@ export default function Navigation() {
                 href={link.href}
               >
                 <a 
-                  className={`px-3 py-2 rounded-md text-white hover:bg-primary/80 transition-colors ${
+                  className={`px-3 py-2 rounded-md text-white text-right hover:bg-primary/80 transition-colors ${
                     isActive(link.href) ? 'bg-primary/80 cursor-default' : ''
                   }`}
                   onClick={(e) => isActive(link.href) && e.preventDefault()}
