@@ -8,7 +8,7 @@ const CashFund = () => {
         
         {/* Split content into 3 transparent boxes */}
         <div className="flex flex-col space-y-4">
-          <div className="bg-white bg-opacity-75 p-4 rounded-lg shadow">
+          <div className="bg-white bg-opacity-50 p-4 rounded-lg shadow"> {/* Changed bg-opacity from 75 to 50 */}
             {/* Box 1 Content */}
             <h2 className="text-xl font-semibold mb-4 text-primary">מעו"ש לקרן כספית בחצי דקה</h2>
             <p>היכנסו לחשבון הבנק שלכם וראו אם יש לכם פלוס בעובר ושב יותר ממה שאתם צריכים בחודש.</p>
