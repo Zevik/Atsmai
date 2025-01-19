@@ -14,6 +14,8 @@ export default function Navigation() {
     { href: '/practical-guide-global-contract', text: 'העסקה בחוזה גלובלי' }, // Changed menu item text
     { href: '/end-employment', text: 'סיום העסקה' }, // Added new menu item
     { href: '/small-business', text: 'עוסק זעיר' }, // Added new menu item
+    { href: '/cash-fund', text: 'קרן כספית' }, // Added new menu item
+    { href: '/עצמאים-בישראל', text: 'עצמאים בישראל' }, // Added new menu item
   ];
 
   const isActive = (path) => router.pathname === path;
