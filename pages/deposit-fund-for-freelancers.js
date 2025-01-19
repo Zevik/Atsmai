@@ -4,6 +4,9 @@ const DepositFundForFreelancers = () => {
   return (
     <div className="min-h-screen bg-secondary/20 overflow-x-hidden p-4">
       <div className="w-full max-w-4xl mx-auto bg-white p-4 md:p-8 rounded-lg shadow-lg overflow-hidden">
+        {/* Move the title to the top */}
+        <h1 className="text-3xl font-bold mb-8 text-primary text-center mt-8">קרן השתלמות</h1>
+        
         {/* Add introductory content */}
         <p>המתנה הכי שווה שקיבלו העצמאים - קרן השתלמות.</p>
         <p>שני דברים ממש טובים שחשוב שתכירו:</p>
@@ -17,9 +20,6 @@ const DepositFundForFreelancers = () => {
         <p>הטיפ שלי?</p>
         <p>רוצו עכשיו בתחילת השנה ותכניסו את כל ה-20,520 שקל לקרן. ככה תתחילו ליהנות מהרווחים בלי מס כמה שיותר מוקדם, וגם תקבלו בסוף השנה את ההכרה בהוצאה.</p>
 
-        {/* Modify the title */}
-        <h1 className="text-3xl font-bold mb-8 text-primary text-center mt-8">קרן השתלמות</h1>
-        
         {/* מבוא */}
         <section className="mb-8">
           <h2 className="text-xl font-semibold mb-4 text-primary">הפקדות לקרן השתלמות לעצמאים</h2>
