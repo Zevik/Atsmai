@@ -8,7 +8,7 @@ const DepositFundForFreelancers = () => {
         <h1 className="text-3xl font-bold mb-8 text-primary text-center mt-8">המתנה הכי שווה שקיבלו העצמאים - קרן השתלמות</h1>
         
         {/* Combined boxed content */}
-        <div className="border p-4 mb-4 rounded-lg bg-gray-50">
+        <div className="border p-4 mb-4 rounded-lg bg-gray-50 bg-opacity-75">
           <p>שני דברים ממש טובים שחשוב שתכירו:</p>
           <p>מה קורה כשאתם שמים כסף בקרן השתלמות:</p>
           <p>כל שקל שאתם שמים שם נחשב הוצאה של העסק. כאילו קניתם משהו לעסק, וזה שווה הרבה. (בקרן פנסיה למשל, רק 35% נחשב הוצאה.)</p>
