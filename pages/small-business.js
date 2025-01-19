@@ -3,11 +3,9 @@ import React from 'react';
 const SmallBusiness = () => {
   return (
     <div className="min-h-screen bg-secondary/20 overflow-x-hidden p-4">
-      {/* Move the title outside boxed regions */}
-      <h1 className="text-3xl font-bold mb-8 text-primary text-center mt-8">עוסק זעיר</h1>
-      
-      {/* Wrap the remaining content inside boxed regions */}
-      <div className="w-full max-w-4xl mx-auto bg-white p-4 md:p-8 rounded-lg shadow-lg overflow-hidden">
+      {/* New Design Layout */}
+      <div className="w-full max-w-4xl mx-auto p-6 bg-white rounded-lg shadow-md">
+        <h1 className="text-4xl font-bold text-center text-primary mb-8">עוסק זעיר</h1>
         <div className="border p-4 mb-4 rounded-lg bg-gray-50">
           <p>"עוסק זעיר" הוא סיווג חדש שהוגדר על ידי רשות המסים במסגרת רפורמה שנועדה להקל על עסקים קטנים בישראל.</p>
           <p>סיווג זה מאפשר לעצמאים עם מחזור עסקאות שנתי של עד 120,000 ₪ ליהנות מהקלות משמעותיות, כגון:</p>
