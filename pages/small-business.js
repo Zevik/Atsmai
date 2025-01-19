@@ -5,8 +5,8 @@ const SmallBusiness = () => {
     <div className="min-h-screen bg-secondary/20 overflow-x-hidden p-4">
       {/* New Design Layout */}
       <div className="w-full max-w-4xl mx-auto p-6 bg-white rounded-lg shadow-md">
-        <h1 className="text-4xl font-bold text-center text-primary mb-8">עוסק זעיר</h1>
-        <div className="border p-4 mb-4 rounded-lg bg-gray-50">
+        <h1 className="text-xl font-semibold mb-4 text-primary border-b-2 border-primary">עוסק זעיר</h1>
+        <div className="border p-4 mb-4 rounded-lg bg-gray-50 bg-opacity-75">
           <p>"עוסק זעיר" הוא סיווג חדש שהוגדר על ידי רשות המסים במסגרת רפורמה שנועדה להקל על עסקים קטנים בישראל.</p>
           <p>סיווג זה מאפשר לעצמאים עם מחזור עסקאות שנתי של עד 120,000 ₪ ליהנות מהקלות משמעותיות, כגון:</p>
           <ul className="list-disc list-inside mb-8 mt-4">
@@ -18,7 +18,7 @@ const SmallBusiness = () => {
           <p>מי שיכול להירשם כ"עוסק זעיר" במס הכנסה הם עצמאים (עוסק פטור או עוסק מורשה) שמחזור העסקאות השנתי שלהם אינו עולה על 120,000 ₪. גם בעלי מקצועות חופשיים כמו עורכי דין, רואי חשבון ומהנדסים, שמחויבים להירשם כעוסק מורשה, יכולים להיחשב כעוסק זעיר במקביל.</p>
         </div>
         
-        <div className="border p-4 mb-4 rounded-lg bg-gray-50">
+        <div className="border p-4 mb-4 rounded-lg bg-gray-50 bg-opacity-75">
           <h2 className="text-xl font-semibold mb-4 text-primary mt-8">תנאים נוספים להגדרת עוסק זעיר</h2>
           <ul className="list-disc list-inside mb-8">
             <li>העסק אינו מעסיק עובדים.</li>
