@@ -4,11 +4,25 @@ const DepositFundForFreelancers = () => {
   return (
     <div className="min-h-screen bg-secondary/20 overflow-x-hidden p-4">
       <div className="w-full max-w-4xl mx-auto bg-white p-4 md:p-8 rounded-lg shadow-lg overflow-hidden">
-        <h1 className="text-3xl font-bold mb-8 text-primary text-center mt-8">הפקדות לקרן השתלמות לעצמאים</h1>
+        {/* Add introductory content */}
+        <p>המתנה הכי שווה שקיבלו העצמאים - קרן השתלמות.</p>
+        <p>שני דברים ממש טובים שחשוב שתכירו:</p>
+        <p>מה קורה כשאתם שמים כסף בקרן השתלמות:</p>
+        <ol className="list-decimal list-inside mb-8">
+          <li>כל שקל שאתם שמים שם נחשב הוצאה של העסק. כאילו קניתם משהו לעסק, וזה שווה הרבה. (בקרן פנסיה למשל, רק 35% נחשב הוצאה.)</li>
+          <li>הדובדבן שבקצפת - כל הרווחים שתעשו מההשקעות בקרן? לא משלמים עליהם מס! בכל השקעה אחרת בשוק ההון לוקחים מכם 25% מהרווחים, פה - כלום.</li>
+        </ol>
+        <p>אז כמה אפשר לשים שם?</p>
+        <p>אתם יכולים להפקיד עד 20,520 שקל בשנה שיהיו פטורים ממס על הרווחים. מתוך זה, עד 13,203 שקל (או 4.5% מההכנסה שלכם אחרי הוצאות - מה שיותר נמוך) ייחשב כהוצאה של העסק.</p>
+        <p>הטיפ שלי?</p>
+        <p>רוצו עכשיו בתחילת השנה ותכניסו את כל ה-20,520 שקל לקרן. ככה תתחילו ליהנות מהרווחים בלי מס כמה שיותר מוקדם, וגם תקבלו בסוף השנה את ההכרה בהוצאה.</p>
+
+        {/* Modify the title */}
+        <h1 className="text-3xl font-bold mb-8 text-primary text-center mt-8">קרן השתלמות</h1>
         
         {/* מבוא */}
         <section className="mb-8">
-          <h2 className="text-xl font-semibold mb-4 text-primary">הפקדות לקרן השתלמות לעצמאים (2024)</h2>
+          <h2 className="text-xl font-semibold mb-4 text-primary">הפקדות לקרן השתלמות לעצמאים</h2>
           
           <h3 className="font-semibold mb-2">ניכוי מס עבור הפקדות לקרן השתלמות:</h3>
           <p>עצמאים יכולים להפקיד עד 4.5% מההכנסה החייבת (כלומר, הכנסות פחות הוצאות מוכרות).</p>
