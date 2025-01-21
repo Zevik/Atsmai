@@ -75,10 +75,13 @@ export default function Navigation() {
                       {link.text}
                     </button>
                     {activeDropdown === link.text && (
-                      <div className="absolute bg-primary shadow-lg mt-1">
+                      <div className="absolute bg-primary shadow-lg mt-1 transition-all duration-300 ease-in-out transform scale-y-100 origin-top">
                         {link.subLinks.map(subLink => (
                           <Link key={subLink.href} href={subLink.href}>
-                            <a className="block px-4 py-2 text-white hover:bg-primary/70">
+                            <a
+                              className="block px-4 py-2 text-white hover:bg-primary/70"
+                              onClick={handleLinkClick}
+                            >
                               {subLink.text}
                             </a>
                           </Link>
