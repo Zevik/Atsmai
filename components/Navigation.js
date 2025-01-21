@@ -8,6 +8,7 @@ export default function Navigation() {
   const router = useRouter();
 
   const links = [
+    { href: '/', text: 'דף הבית', subLinks: [] },
     {
       text: 'עצמאים ועצמאיות',
       href: null,
@@ -30,7 +31,6 @@ export default function Navigation() {
         { href: '/cat', text: 'חתול' }, // New page
       ],
     },
-    { href: '/', text: 'דף הבית', subLinks: [] },
   ];
 
   const isActive = (path) => router.pathname === path;
