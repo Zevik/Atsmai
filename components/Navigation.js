@@ -4,24 +4,44 @@ import { useRouter } from 'next/router';
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
+  const [activeDropdown, setActiveDropdown] = useState(null);
   const router = useRouter();
 
   const links = [
-    { href: '/', text: 'דף הבית' },
-    { href: '/employer-obligations', text: 'חובות המעביד' },
-    { href: '/worker-employer-relations', text: 'יחסי עובד-מעביד' }, // Changed menu item text
-    { href: '/deposit-fund-for-freelancers', text: 'קרן השתלמות' }, // Changed menu item text
-    { href: '/practical-guide-global-contract', text: 'העסקה בחוזה גלובלי' }, // Changed menu item text
-    { href: '/end-employment', text: 'סיום העסקה' }, // Added new menu item
-    { href: '/small-business', text: 'עוסק זעיר' }, // Added new menu item
-    { href: '/cash-fund', text: 'קרן כספית' }, // Added new menu item
-    { href: '/self-employed-in-israel', text: 'עצמאים בישראל' }, // Updated URL
+    {
+      text: 'עצמאים ועצמאיות',
+      href: null,
+      subLinks: [
+        { href: '/employer-obligations', text: 'חובות המעביד' },
+        { href: '/worker-employer-relations', text: 'יחסי עובד-מעביד' },
+        { href: '/deposit-fund-for-freelancers', text: 'קרן השתלמות' },
+        { href: '/practical-guide-global-contract', text: 'העסקה בחוזה גלובלי' },
+        { href: '/end-employment', text: 'סיום העסקה' },
+        { href: '/small-business', text: 'עוסק זעיר' },
+        { href: '/cash-fund', text: 'קרן כספית' },
+        { href: '/self-employed-in-israel', text: 'עצמאים בישראל' },
+        { href: '/dag', text: 'דג' }, // New page
+      ],
+    },
+    {
+      text: 'כלמיני',
+      href: null,
+      subLinks: [
+        { href: '/cat', text: 'חתול' }, // New page
+      ],
+    },
+    { href: '/', text: 'דף הבית', subLinks: [] },
   ];
 
   const isActive = (path) => router.pathname === path;
 
   const handleLinkClick = () => {
     setIsOpen(false);
+    setActiveDropdown(null);
+  };
+
+  const toggleDropdown = (text) => {
+    setActiveDropdown(activeDropdown === text ? null : text);
   };
 
   return (
@@ -46,19 +66,35 @@ export default function Navigation() {
           {/* Desktop navigation */}
           <div className="hidden md:flex md:items-center md:space-x-4 rtl:space-x-reverse">
             {links.map(link => (
-              <Link 
-                key={link.href} 
-                href={link.href}
-              >
-                <a 
-                  className={`px-3 py-2 rounded-md text-white text-right hover:bg-primary/80 transition-colors ${
-                    isActive(link.href) ? 'bg-primary/80 cursor-default' : ''
-                  }`}
-                  onClick={(e) => isActive(link.href) && e.preventDefault()}
-                >
-                  {link.text}
-                </a>
-              </Link>
+              <div key={link.text} className="relative group">
+                {link.subLinks.length > 0 ? (
+                  <>
+                    <button
+                      onClick={() => toggleDropdown(link.text)}
+                      className={`px-3 py-2 rounded-md text-white text-right hover:bg-primary/80 transition-colors`}
+                    >
+                      {link.text}
+                    </button>
+                    {activeDropdown === link.text && (
+                      <div className="absolute bg-primary shadow-lg mt-1">
+                        {link.subLinks.map(subLink => (
+                          <Link key={subLink.href} href={subLink.href}>
+                            <a className="block px-4 py-2 text-white hover:bg-primary/70">
+                              {subLink.text}
+                            </a>
+                          </Link>
+                        ))}
+                      </div>
+                    )}
+                  </>
+                ) : (
+                  <Link href={link.href}>
+                    <a className={`px-3 py-2 rounded-md text-white text-right hover:bg-primary/80 transition-colors`}>
+                      {link.text}
+                    </a>
+                  </Link>
+                )}
+              </div>
             ))}
           </div>
         </div>
@@ -68,19 +104,41 @@ export default function Navigation() {
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {links.map(link => (
-                <Link 
-                  key={link.href} 
-                  href={link.href}
-                >
-                  <a 
-                    className={`block px-3 py-2 rounded-md text-white hover:bg-primary/80 transition-colors ${
-                      isActive(link.href) ? 'bg-primary/80 cursor-default' : ''
-                    }`}
-                    onClick={handleLinkClick}
-                  >
-                    {link.text}
-                  </a>
-                </Link>
+                <div key={link.text} className="relative">
+                  {link.subLinks.length > 0 ? (
+                    <>
+                      <button
+                        onClick={() => toggleDropdown(link.text)}
+                        className={`block px-3 py-2 rounded-md text-white text-right hover:bg-primary/80 transition-colors`}
+                      >
+                        {link.text}
+                      </button>
+                      {activeDropdown === link.text && (
+                        <div className="pl-4 mt-1 space-y-1">
+                          {link.subLinks.map(subLink => (
+                            <Link key={subLink.href} href={subLink.href}>
+                              <a
+                                className={`block px-3 py-2 rounded-md text-white hover:bg-primary/80 transition-colors`}
+                                onClick={handleLinkClick}
+                              >
+                                {subLink.text}
+                              </a>
+                            </Link>
+                          ))}
+                        </div>
+                      )}
+                    </>
+                  ) : (
+                    <Link href={link.href}>
+                      <a
+                        className={`block px-3 py-2 rounded-md text-white text-right hover:bg-primary/80 transition-colors`}
+                        onClick={handleLinkClick}
+                      >
+                        {link.text}
+                      </a>
+                    </Link>
+                  )}
+                </div>
               ))}
             </div>
           </div>
