@@ -21,14 +21,13 @@ export default function Navigation() {
         { href: '/small-business', text: 'עוסק זעיר' },
         { href: '/cash-fund', text: 'קרן כספית' },
         { href: '/self-employed-in-israel', text: 'עצמאים בישראל' },
-        { href: '/dag', text: 'דג' }, // New page
       ],
     },
     {
       text: 'כלמיני',
       href: null,
       subLinks: [
-        { href: '/cat', text: 'חתול' }, // New page
+        { href: '/blindness', text: 'על העיוורון' }, // Updated page
       ],
     },
   ];
