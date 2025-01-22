@@ -1,6 +1,23 @@
+import { useState } from 'react';
 import Navigation from './Navigation';
 
 export default function Layout({ children }) {
+  const [submitted, setSubmitted] = useState(false);
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const form = e.target;
+    const formData = new FormData(form);
+
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: new URLSearchParams(formData).toString(),
+    })
+      .then(() => setSubmitted(true))
+      .catch((error) => alert(error));
+  };
+
   return (
     <div className="flex flex-col min-h-screen">
       <Navigation />
@@ -11,22 +28,26 @@ export default function Layout({ children }) {
         {/* הוסף טופס Netlify Forms */}
         <div className="mt-6">
           <h2 className="text-xl font-semibold mb-2">הוסף הערה</h2>
-          <form name="contact" method="POST" data-netlify="true" className="flex flex-col items-center">
-            <input type="hidden" name="form-name" value="contact" />
-            <textarea
-              name="message"
-              placeholder="הזן את ההערה שלך כאן..."
-              className="w-full max-w-md p-2 rounded-md text-black bg-secondary resize-none"
-              style={{ minHeight: '100px' }}
-              required
-            ></textarea>
-            <button
-              type="submit"
-              className="mt-2 px-4 py-2 bg-accent text-white rounded-md hover:bg-accent-dark transition-colors"
-            >
-              שלח
-            </button>
-          </form>
+          {submitted ? (
+            <p>תודה. ההודעה נשלחה.</p>
+          ) : (
+            <form name="contact" method="POST" data-netlify="true" className="flex flex-col items-center" onSubmit={handleSubmit}>
+              <input type="hidden" name="form-name" value="contact" />
+              <textarea
+                name="message"
+                placeholder="הזן את ההערה שלך כאן..."
+                className="w-full max-w-md p-2 rounded-md text-black bg-secondary resize-none"
+                style={{ minHeight: '100px' }}
+                required
+              ></textarea>
+              <button
+                type="submit"
+                className="mt-2 px-4 py-2 bg-accent text-white rounded-md hover:bg-accent-dark transition-colors"
+              >
+                שלח
+              </button>
+            </form>
+          )}
         </div>
         <p>
           כל הזכויות שמורות. {' '}
