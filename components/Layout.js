@@ -29,7 +29,7 @@ export default function Layout({ children }) {
         <div className="mt-6">
           {!submitted && <h2 className="text-xl font-semibold mb-2">הוסף הערה</h2>}
           {submitted ? (
-            <p>תודה. ההודעה נשלחה.</p>
+            <p className="text-blue-500">תודה. ההודעה נשלחה.</p>
           ) : (
             <form name="contact" method="POST" data-netlify="true" className="flex flex-col items-center" onSubmit={handleSubmit}>
               <input type="hidden" name="form-name" value="contact" />
