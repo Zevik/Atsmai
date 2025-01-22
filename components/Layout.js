@@ -27,7 +27,7 @@ export default function Layout({ children }) {
       <footer className="bg-primary text-white p-4 text-center">
         {/* הוסף טופס Netlify Forms */}
         <div className="mt-6">
-          <h2 className="text-xl font-semibold mb-2">הוסף הערה</h2>
+          {!submitted && <h2 className="text-xl font-semibold mb-2">הוסף הערה</h2>}
           {submitted ? (
             <p>תודה. ההודעה נשלחה.</p>
           ) : (
