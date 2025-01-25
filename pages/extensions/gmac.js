@@ -129,7 +129,7 @@ export default function GmacPage() {
 
         {/* How It Works */}
         <section className="py-16 bg-gray-50">
-          <div className="container mx-auto px-4"></div>
+          <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold text-center mb-12">איך התוסף עובד</h2>
             <div className="max-w-3xl mx-auto">
               <div className="space-y-8">
