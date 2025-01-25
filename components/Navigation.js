@@ -24,10 +24,11 @@ export default function Navigation() {
       ],
     },
     {
-      text: 'כלמיני',
-      href: null,
+      text: 'עולם הקהילות', // שונה מ'כלמיני'
+      href: '/communities',    // עדכון ה-URL ל'communities'
       subLinks: [
         { href: '/blindness', text: 'על העיוורון' }, // Updated page
+        { href: '/judges-and-police', text: 'שופטים ושוטרים' }, // הוסף קישור חדש
       ],
     },
   ];
