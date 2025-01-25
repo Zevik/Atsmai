@@ -5,7 +5,6 @@ import FaqAccordion from '@/components/FaqAccordion';
 import VideoPlayer from '@/components/VideoPlayer';
 import { Briefcase, Shield, Clock } from 'lucide-react';
 import { useState } from 'react';
-import { gmacFaqItems } from './gmacFaq';
 
 const features = [
   {
@@ -29,6 +28,49 @@ const steps = [
   'התקנה פשוטה בלחיצת כפתור',
   'יופיעו כפתורים חדשים בפייסבוק שלכם מעל כפתורי אישורי החברות',
   'בלחיצת כפתור תוכלו לאסוף את כל התשובות לגוגלשיטס'
+];
+
+const gmacFaqItems = [
+  {
+    question: 'האם ניתן להשתמש אם התוסף עבור כמה קבוצות שאני מנהל/ת?',
+    answer: 'כן. ובנוסף, עבור כל קבוצה התוסף יצור קובץ נפרד שאליו ישמרו הנתונים.'
+  },
+  {
+    question: 'האם התשובות נאספות באופן אוטומטי לחלוטין?',
+    answer: 'לא. יש לאסוף את הנתונים בכל פעם לפני שמאשרים את בקשות ההצטרפות לקבוצה, על ידי לחיצה על כפתור Collect.'
+  },
+  {
+    question: 'אם לוחצים על Collect כמה פעמים, האם הנתונים יופיעו בקובץ כמה פעמים?',
+    answer: 'לא. הנתונים נאספים פעם אחת על מנת לא ליצור כפילויות, אלא אם כן אחת התשובות השתנתה ואז הנתונים ירשמו מחדש.'
+  },
+  {
+    question: 'מה יקרה אם אשנה את שאלות הכניסה לקבוצה?',
+    answer: 'התוסף יצור עמודות חדשות בגוגלשיטס עם כותרות השאלות החדשות, וירשום את התשובות המתאימות תחתיהן.'
+  },
+  {
+    question: 'האם הנתונים שאספתי יכולים ללכת לאיבוד לאחר סיום המנוי?',
+    answer: 'לא! הנתונים נשמרים בגוגלשיטס ששייך למנוי, תחת חשבון הגוגל, ותמיד ניתן למצוא אותו ב: https://drive.google.com'
+  },
+  {
+    question: 'אם אני מבטל/ת את התוסף לאחר 4 ימים, האם יהיה לי חיוב כלשהוא?',
+    answer: 'לא! יש 5 ימי ניסיון ללא עלות וללא התחייבות, וניתן לבטל את המנוי לפני היום החמישי ללא כל חיוב.'
+  },
+  {
+    question: 'לאן ישלחו החשבוניות?',
+    answer: 'החשבוניות נשלחות באופן אוטומטי לאימייל שאיתו נרשמתם שזהו אותו אימייל של חשבון הכרום תחתיו התקנתם את התוסף. לא ניתן להחליף את האימייל לקבלת חשבונית ללא החלפה של חשבון הכרום שעליו התוסף מותקן ותחתיו חשבון הפייסבוק שלכם פעיל.'
+  },
+  {
+    question: 'כמה ימים אחורה התוסף מאתר פוסטים?',
+    answer: 'בהגדרות התוסף ישנה אפשרות להגדיר את מספר הימים שנרצה שהתוסף יגלול אחורה לאיתור פוסטים.'
+  },
+  {    
+    question: 'האם ניתן לעשות חיפוש בכל שפה?',    
+    answer: 'כן.'  
+  },  
+  {    
+    question: 'איך ומתי ניתן לבטל את המנוי?',    
+    answer: 'המנוי הוא חודשי והוא מתחדש מדי חודש באותו היום שבו התחלתם את המנוי. ניתן לפנות אלי עד 24 שעות לפני חידוש המנוי על מנת לבטלו.'  
+  }
 ];
 
 function CopyEmailButton() {
@@ -77,7 +119,7 @@ export default function GmacPage() {
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-4xl md:text-5xl font-bold mb-6 animate-fade-in">
                 GMAC - שומר התשובות לשאלות הכניסה לקבוצה
-                <span className="block text-2xl md:text-3xl text-indigo-200 mt-4 opacity-0 animate-[fadeIn_0.5s_ease-out_0.3s_forwards]">
+                <span className="block text-2xl md:text-3xl text-indigo-200 mt-4 opacity-0 animate-[fadeIn_0.5s_ease-out_0.3s_forwards]"></span>
                   התוסף הפופולרי למנהלי ומנהלות קבוצות פייסבוק
                 </span>
               </h1>
@@ -87,7 +129,7 @@ export default function GmacPage() {
 
         {/* How It Works */}
         <section className="py-16 bg-gray-50">
-          <div className="container mx-auto px-4">
+          <div className="container mx-auto px-4"></div>
             <h2 className="text-3xl font-bold text-center mb-12">איך התוסף עובד</h2>
             <div className="max-w-3xl mx-auto">
               <div className="space-y-8">
