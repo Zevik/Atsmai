@@ -36,8 +36,8 @@ export default function Layout({ children }) {
               <textarea
                 name="message"
                 placeholder="הזן את ההערה שלך כאן..."
-                className="w-full max-w-md p-2 rounded-md text-black bg-secondary resize-none"
-                style={{ minHeight: '100px' }}
+                className="w-full max-w-md p-2 rounded-md text-black bg-primary border resize-none"
+                rows="2"
                 required
               ></textarea>
               <button
