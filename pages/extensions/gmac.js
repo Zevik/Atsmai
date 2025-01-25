@@ -119,7 +119,7 @@ export default function GmacPage() {
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-4xl md:text-5xl font-bold mb-6 animate-fade-in">
                 GMAC - שומר התשובות לשאלות הכניסה לקבוצה
-                <span className="block text-2xl md:text-3xl text-indigo-200 mt-4 opacity-0 animate-[fadeIn_0.5s_ease-out_0.3s_forwards]"></span>
+                <span className="block text-2xl md:text-3xl text-indigo-200 mt-4 opacity-0 animate-[fadeIn_0.5s_ease-out_0.3s_forwards]">
                   התוסף הפופולרי למנהלי ומנהלות קבוצות פייסבוק
                 </span>
               </h1>
