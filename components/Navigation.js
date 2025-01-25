@@ -37,8 +37,13 @@ export default function Navigation() {
     },
     {
       text: 'התוכנות והתוספים',
-      href: '/extensions',
-      subLinks: [],
+      href: null, // הפוך ל-null כיוון שזה קטגוריה
+      subLinks: [
+        {
+          href: '/extensions',
+          text: 'ראשי',
+        },
+      ],
     },
   ];
 
