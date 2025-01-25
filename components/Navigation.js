@@ -28,7 +28,7 @@ export default function Navigation() {
       href: '/communities',    // עדכון ה-URL ל'communities'
       subLinks: [
         { href: '/blindness', text: 'על העיוורון' }, // Updated page
-        { href: '/judges-and-police', text: 'שופטים ושוטרים' }, // הוסף קישור חדש
+        { href: '/communities/judges-and-police', text: 'שופטים ושוטרים' }, // עדכון ה-URL ל'/communities/judges-and-police'
       ],
     },
   ];
