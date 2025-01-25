@@ -32,6 +32,7 @@ export default function Navigation() {
         { href: '/communities/monetization-and-pricing', text: 'מוניטיזציה ותמחור' }, // הוסף קישור חדש
         { href: '/communities/marketing-writing', text: 'כתיבה שיווקית' }, // הוסף קישור חדש
         { href: '/communities/group-managers-legal-responsibility', text: 'אחריות משפטית' }, // הוסף קישור חדש
+        { href: '/communities/monetization', text: 'מוניטיזציה' }, // הוסף קישור חדש
       ],
     },
   ];
