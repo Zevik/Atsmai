@@ -27,12 +27,12 @@ export default function Navigation() {
       text: 'עולם הקהילות', // שונה מ'כלמיני'
       href: '/communities',    // עדכון ה-URL ל'communities'
       subLinks: [
-        { href: '/blindness', text: 'על העיוורון' }, // Updated page
         { href: '/communities/judges-and-police', text: 'שופטים ושוטרים' }, // עדכון ה-URL ל'/communities/judges-and-police'
         { href: '/communities/monetization-and-pricing', text: 'מוניטיזציה ותמחור' }, // הוסף קישור חדש
         { href: '/communities/marketing-writing', text: 'כתיבה שיווקית' }, // הוסף קישור חדש
         { href: '/communities/group-managers-legal-responsibility', text: 'אחריות משפטית' }, // הוסף קישור חדש
         { href: '/communities/monetization', text: 'מוניטיזציה' }, // הוסף קישור חדש
+        { href: '/communities/shaming', text: 'שיימינג' }, // הוסף קישור חדש
       ],
     },
   ];
