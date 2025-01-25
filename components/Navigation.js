@@ -29,6 +29,7 @@ export default function Navigation() {
       subLinks: [
         { href: '/blindness', text: 'על העיוורון' }, // Updated page
         { href: '/communities/judges-and-police', text: 'שופטים ושוטרים' }, // עדכון ה-URL ל'/communities/judges-and-police'
+        { href: '/communities/monetization-and-pricing', text: 'מוניטיזציה ותמחור' }, // הוסף קישור חדש
       ],
     },
   ];
