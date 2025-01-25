@@ -27,7 +27,7 @@ export default function Layout({ children }) {
       <footer className="bg-primary text-white p-4 text-center">
         {/* הוסף טופס Netlify Forms */}
         <div className="mt-6">
-          {!submitted && <h2 className="text-xl font-semibold mb-2">הוסף הערה</h2>}
+          {!submitted && <h2 className="text-xl font-semibold mb-2">רשמו הערה</h2>}
           {submitted ? (
             <p className="text-blue-500">תודה. ההודעה נשלחה.</p>
           ) : (
@@ -35,7 +35,6 @@ export default function Layout({ children }) {
               <input type="hidden" name="form-name" value="contact" />
               <textarea
                 name="message"
-                placeholder="הזן את ההערה שלך כאן..."
                 className="w-full max-w-md p-2 rounded-md text-black bg-primary border resize-none"
                 rows="2"
                 required
