@@ -30,6 +30,8 @@ export default function Navigation() {
         { href: '/blindness', text: 'על העיוורון' }, // Updated page
         { href: '/communities/judges-and-police', text: 'שופטים ושוטרים' }, // עדכון ה-URL ל'/communities/judges-and-police'
         { href: '/communities/monetization-and-pricing', text: 'מוניטיזציה ותמחור' }, // הוסף קישור חדש
+        { href: '/communities/marketing-writing', text: 'כתיבה שיווקית' }, // הוסף קישור חדש
+        { href: '/communities/group-managers-legal-responsibility', text: 'אחריות משפטית' }, // הוסף קישור חדש
       ],
     },
   ];
