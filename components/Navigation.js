@@ -43,6 +43,10 @@ export default function Navigation() {
           href: '/extensions',
           text: 'ראשי',
         },
+        {
+          href: '/extensions/gmac',
+          text: 'gmac',
+        },
       ],
     },
   ];
