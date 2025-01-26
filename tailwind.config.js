@@ -13,6 +13,12 @@ module.exports = {
           secondary: '#BADFD7',
           accent: '#F7E3DB',
         },
+        screens: {
+          sm: '640px',
+          md: '768px',
+          lg: '1024px',
+          xl: '1280px',
+        },
       },
     },
     plugins: [],

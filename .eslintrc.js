@@ -7,7 +7,8 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',
-    'next/core-web-vitals'
+    'next/core-web-vitals',
+    'plugin:@next/next/recommended' // Added Next.js recommended rules
   ],
   parserOptions: {
     ecmaFeatures: {
@@ -28,3 +29,4 @@ module.exports = {
     'react/react-in-jsx-scope': 'off'
   }
 }
+

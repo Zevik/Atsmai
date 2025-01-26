@@ -8,6 +8,11 @@ html {
 
 :root {
   direction: rtl;
+  --font-base: 16px;
+  --spacing-base: 1rem;
+  --color-primary: #60BFC1;
+  --color-secondary: #BADFD7;
+  --color-accent: #F7E3DB;
 }
 
 body {
@@ -34,7 +39,7 @@ ul, ol {
 
 /* Custom styles for sections */
 section {
-  @apply bg-white rounded-lg shadow-md p-6 mb-6;
+  @apply bg-white rounded-lg shadow-md p-6 mb-6 flex flex-col gap-4;
 }
 
 /* Ensure no horizontal scrolling on mobile */
