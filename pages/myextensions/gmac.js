@@ -116,18 +116,6 @@ const Gmac = () => {
               <summary className="cursor-pointer">שאלה: לאן ישלחו החשבוניות?</summary>
               <p className="mt-2">תשובה: החשבוניות נשלחות באופן אוטומטי לאימייל שאיתו נרשמתם שזהו אותו אימייל של חשבון הכרום תחתיו התקנתם את התוסף. לא ניתן להחליף את האימייל לקבלת חשבונית ללא החלפה של חשבון הכרום שעליו התוסף מותקן ותחתיו חשבון הפייסבוק שלכם פעיל.</p>
             </details>
-            <details className="rounded border bg-gray-100 p-2">
-              <summary className="cursor-pointer">שאלה: כמה ימים אחורה התוסף מאתר פוסטים?</summary>
-              <p className="mt-2">תשובה: בהגדרות התוסף ישנה אפשרות להגדיר את מספר הימים שנרצה שהתוסף יגלול אחורה לאיתור פוסטים.</p>
-            </details>
-            <details className="rounded border bg-gray-100 p-2">
-              <summary className="cursor-pointer">שאלה: האם ניתן לעשות חיפוש בכל שפה?</summary>
-              <p className="mt-2">תשובה: כן.</p>
-            </details>
-            <details className="rounded border bg-gray-100 p-2">
-              <summary className="cursor-pointer">שאלה: איך ומתי ניתן לבטל את המנוי?</summary>
-              <p className="mt-2">תשובה: המנוי הוא חודשי והוא מתחדש מדי חודש באותו היום שבו התחלתם את המנוי. ניתן לפנות אלי עד 24 שעות לפני חידוש המנוי על מנת לבטלו.</p>
-            </details>
           </div>
         </section>
 
