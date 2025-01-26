@@ -41,7 +41,7 @@ export default function Layout({ children }) {
               ></textarea>
               <button
                 type="submit"
-                className="mt-2 px-4 py-2 bg-accent text-white rounded-md hover:bg-accent-dark transition-colors"
+                className="mt-2 px-4 py-2 bg-secondary text-primary rounded-md hover:bg-secondary-dark transition-colors"
               >
                 שלח
               </button>
