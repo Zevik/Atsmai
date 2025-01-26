@@ -48,7 +48,7 @@ export default function Navigation() {
           text: 'gmac',
         },
         // הוסף את הקישור החדש כאן
-        { href: '/extensions/groupsmonitor', text: 'GroupsMonitoring' } // Updated URL to /extensions/groupsmonitor
+        { href: '/extensions/groupsmonitoring', text: 'GroupsMonitoring' } // Updated URL to /extensions/groupsmonitoring
       ],
     },
   ];
