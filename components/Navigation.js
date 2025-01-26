@@ -35,22 +35,6 @@ export default function Navigation() {
         { href: '/communities/shaming', text: 'שיימינג' }, // הוסף קישור חדש
       ],
     },
-    {
-      text: 'התוכנות והתוספים',
-      href: null, // הפוך ל-null כיוון שזה קטגוריה
-      subLinks: [
-        {
-          href: '/extensions',
-          text: 'ראשי',
-        },
-        {
-          href: '/extensions/gmac',
-          text: 'gmac',
-        },
-        // הוסף את הקישור החדש כאן
-        { href: '/extensions/groupsmonitoring', text: 'GroupsMonitoring' } // Updated URL to /extensions/groupsmonitoring
-      ],
-    },
   ];
 
   const isActive = (path) => router.pathname === path;
