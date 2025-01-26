@@ -35,6 +35,15 @@ export default function Navigation() {
         { href: '/communities/shaming', text: 'שיימינג' }, // הוסף קישור חדש
       ],
     },
+    // Added "התוספים שלי" section
+    {
+      text: 'התוספים שלי',
+      href: null,
+      subLinks: [
+        { href: '/התוספים שלי/gmac', text: 'Gmac' },
+        { href: '/התוספים שלי/groupsmonitoring', text: 'GroupsMonitoring' },
+      ],
+    },
   ];
 
   const isActive = (path) => router.pathname === path;
