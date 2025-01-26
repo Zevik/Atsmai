@@ -184,7 +184,7 @@ export default function GmacPage() {
                                         <div className="flex-shrink-0 w-8 h-8 bg-indigo-600 text-white rounded-full flex items-center justify-center">
                                             {index + 1}
                                         </div>
-                                        <p className="text-lg text-indigo-600">{step}</p>
+                                        <p className="text-lg text-black">{step}</p>
                                     </div>
                                 ))}
                             </div>
