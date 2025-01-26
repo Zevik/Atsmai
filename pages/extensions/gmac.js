@@ -6,7 +6,7 @@ import { useState } from 'react';
 //  VideoPlayer Component
 const VideoPlayer = ({ videoId }) => {
     return (
-        <div className="relative w-full h-[250px] md:h-[450px]">
+        <div className="relative w-full h-[700px] md:h-[900px]">
             <iframe
                 className="absolute inset-0 w-full h-full"
                 src={`https://www.youtube.com/embed/${videoId}`}
