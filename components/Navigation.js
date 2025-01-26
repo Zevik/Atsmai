@@ -40,8 +40,8 @@ export default function Navigation() {
       text: 'התוספים שלי',
       href: null,
       subLinks: [
-        { href: '/התוספים שלי/gmac', text: 'Gmac' },
-        { href: '/התוספים שלי/groupsmonitoring', text: 'GroupsMonitoring' },
+        { href: '/myextensions/gmac', text: 'Gmac' },
+        { href: '/myextensions/groupsmonitoring', text: 'GroupsMonitoring' },
       ],
     },
   ];
