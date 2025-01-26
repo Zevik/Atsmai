@@ -7,13 +7,13 @@ const GroupsMonitoring = () => {
         
         {/* סקציה 1 */}
         <section className="mb-6">
-          <h1 className="text-3xl font-bold mb-2">סורקת קבוצות מוצאת לקוחות - GroupsMonitoring</h1>
+          <h1 className="text-3xl font-bold mb-2 text-primary">סורקת קבוצות מוצאת לקוחות - GroupsMonitoring</h1>
           <p className="mb-4">הכלי החזק ביותר לניטור קבוצות פייסבוק, עבור עסקים ונותני שירות</p>
         </section>
 
         {/* סקציה 2 */}
         <section className="mb-6">
-          <h2 className="text-2xl font-semibold mb-2">איך התוסף עובד</h2>
+          <h2 className="text-2xl font-semibold mb-2 text-primary">איך התוסף עובד</h2>
           <ol className="list-decimal list-inside space-y-2">
             <li>בחרו את מילות החיפוש ואת הקבוצות שתרצו.</li>
             <li>התוסף יסרוק את הקבוצות 24/7 במקומכם.</li>
@@ -24,7 +24,7 @@ const GroupsMonitoring = () => {
 
         {/* סקציה 3 */}
         <section className="mb-6">
-          <h2 className="text-2xl font-semibold mb-2">למה GroupsMonitoring?</h2>
+          <h2 className="text-2xl font-semibold mb-2 text-primary">למה GroupsMonitoring?</h2>
           <ul className="list-disc list-inside space-y-2">
             <li><strong>חיסכון בזמן:</strong> שבועות של חיפוש הופכות לדקות.</li>
             <li><strong>פעולה מהירה:</strong> לא מפספסים אף הזדמנות עסקית.</li>
@@ -34,11 +34,11 @@ const GroupsMonitoring = () => {
 
         {/* סקציה 4 */}
         <section className="mb-6">
-          <h2 className="text-2xl font-semibold mb-2">GroupsMonitoring בפעולה</h2>
+          <h2 className="text-2xl font-semibold mb-2 text-primary">GroupsMonitoring בפעולה</h2>
           <div className="aspect-w-16 aspect-h-9 mb-4">
             <iframe
               className="w-full h-64 md:h-96"
-              src="https://www.youtube.com/embed/geuXKKxWSg"
+              src="https://www.youtube.com/embed/-geuXKKxWSg"
               title="GroupsMonitoring Demo"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -49,13 +49,13 @@ const GroupsMonitoring = () => {
 
         {/* סקציה 5 */}
         <section className="mb-6">
-          <h2 className="text-2xl font-semibold mb-2">התקנה בדפדפן הכרום</h2>
+          <h2 className="text-2xl font-semibold mb-2 text-primary">התקנה בדפדפן הכרום</h2>
           <p className="mb-4">התקינו את התוסף בקליק אחד</p>
         </section>
 
         {/* סקציה 6 */}
         <section className="mb-6">
-          <h2 className="text-2xl font-semibold mb-2">התקנה</h2>
+          <h2 className="text-2xl font-semibold mb-2 text-primary">התקנה</h2>
           <p className="mb-2">עלות חודשית: ₪349</p>
           <p className="mb-2">ביטול בכל עת</p>
           <p className="mb-4">ללא התחייבות</p>
@@ -63,7 +63,7 @@ const GroupsMonitoring = () => {
 
         {/* סקציה 7 */}
         <section className="mb-6">
-          <h2 className="text-2xl font-semibold mb-2">שאלות ותשובות נפוצות</h2>
+          <h2 className="text-2xl font-semibold mb-2 text-primary">שאלות ותשובות נפוצות</h2>
           <div className="space-y-4">
             <details className="rounded border bg-gray-100 p-2">
               <summary className="cursor-pointer">שאלה: האם ניתן לסרוק כל קבוצה?</summary>
