@@ -59,7 +59,7 @@ export default function Navigation() {
   };
 
   return (
-    <nav className="bg-primary shadow-lg">
+    <nav className="bg-primary shadow-lg z-50 relative">
       <div className="max-w-4xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           {/* Mobile menu button */}
@@ -90,7 +90,7 @@ export default function Navigation() {
                       {link.text}
                     </button>
                     {activeDropdown === link.text && (
-                      <div className="absolute bg-primary shadow-lg mt-1 transition-all duration-300 ease-in-out transform scale-y-100 origin-top">
+                      <div className="absolute bg-primary shadow-lg mt-1 transition-all duration-300 ease-in-out transform scale-y-100 origin-top z-50">
                         {link.subLinks.map(subLink => (
                           <Link key={subLink.href} href={subLink.href}>
                             <a
