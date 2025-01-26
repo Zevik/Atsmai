@@ -32,7 +32,7 @@ const Gmac = () => {
         </section>
 
         {/* סקציה 4 */}
-        <section className="mb-6">
+        <section className="mb-6 text-center">
           <h2 className="text-2xl font-semibold mb-2 text-primary">ראו את GMAC בפעולה</h2>
           <div className="aspect-w-16 aspect-h-9 mb-4">
             <iframe
@@ -47,7 +47,7 @@ const Gmac = () => {
         </section>
 
         {/* סקציה 5 */}
-        <section className="mb-6">
+        <section className="mb-6 text-center">
           <h2 className="text-2xl font-semibold mb-2 text-primary">איך מתקינים בקלות?</h2>
           <div className="aspect-w-16 aspect-h-9 mb-4">
             <iframe
