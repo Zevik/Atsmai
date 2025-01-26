@@ -1,45 +1,54 @@
 import React from 'react';
 
-const GroupsMonitoring = () => {
+const Gmac = () => {
   return (
     <div className="min-h-screen bg-secondary/20 overflow-x-hidden p-4">
       <div className="w-full max-w-4xl mx-auto bg-white p-6 md:p-8 rounded-lg shadow-lg overflow-hidden">
         
         {/* סקציה 1 */}
         <section className="mb-6 text-center">
-          <h1 className="text-3xl font-bold mb-2 text-primary">סורקת קבוצות מוצאת לקוחות - GroupsMonitoring</h1>
-          <p className="mb-4">הכלי החזק ביותר לניטור קבוצות פייסבוק, עבור עסקים ונותני שירות</p>
+          <h1 className="text-3xl font-bold mb-2 text-primary">GMAC - שומר התשובות לשאלות הכניסה לקבוצה</h1>
+          <p className="mb-4">התוסף הפופולרי למנהלי ומנהלות קבוצות פייסבוק</p>
         </section>
 
         {/* סקציה 2 */}
         <section className="mb-6">
           <h2 className="text-2xl font-semibold mb-2 text-primary">איך התוסף עובד</h2>
           <ol className="list-decimal list-inside space-y-2">
-            <li>בחרו את מילות החיפוש ואת הקבוצות שתרצו.</li>
-            <li>התוסף יסרוק את הקבוצות 24/7 במקומכם.</li>
-            <li>כל פוסט רלוונטי יועבר ישירות ל- GoogleSheets שלכם.</li>
-            <li>התראות חכמות: קבלו עדכון למייל על כל פוסט חדש.</li>
+            <li>התקנה פשוטה בלחיצת כפתור</li>
+            <li>יופיעו כפתורים חדשים בפייסבוק שלכם מעל כפתורי אישורי החברות</li>
+            <li>בלחיצת כפתור תוכלו לאסוף את כל התשובות לגוגלשיטס</li>
           </ol>
         </section>
 
         {/* סקציה 3 */}
         <section className="mb-6">
-          <h2 className="text-2xl font-semibold mb-2 text-primary">למה GroupsMonitoring?</h2>
+          <h2 className="text-2xl font-semibold mb-2 text-primary">למה GMAC?</h2>
           <ul className="list-disc list-inside space-y-2">
-            <li><strong>חיסכון בזמן:</strong> שבועות של חיפוש הופכות לדקות.</li>
-            <li><strong>פעולה מהירה:</strong> לא מפספסים אף הזדמנות עסקית.</li>
-            <li><strong>גיבוי מושלם:</strong> אוטומציה חכמה הטכנולוגיה עובדת בשבילכם 24/7.</li>
+            <li><strong>חיסכון בזמן:</strong> איסוף אוטומטי של כל התשובות בלחיצת כפתור</li>
+            <li><strong>פעולה מהירה:</strong> שמירת המידע באופן מיידי וללא עיכובים</li>
+            <li><strong>גיבוי מושלם:</strong> כל המידע נשמר בגוגל שיטס באופן מאובטח</li>
           </ul>
         </section>
 
         {/* סקציה 4 */}
         <section className="mb-6">
-          <h2 className="text-2xl font-semibold mb-2 text-primary">GroupsMonitoring בפעולה</h2>
+          <h2 className="text-2xl font-semibold mb-2 text-primary">ראו את GMAC בפעולה</h2>
           <div className="aspect-w-16 aspect-h-9 mb-4">
             <iframe
               className="w-full h-64 md:h-96"
-              src="https://www.youtube.com/embed/-geuXKKxWSg"
-              title="GroupsMonitoring Demo"
+              src="https://www.youtube.com/embed/mLnXlkmy84Q"
+              title="GMAC Demo"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+          <div className="aspect-w-16 aspect-h-9 mb-4">
+            <iframe
+              className="w-full h-64 md:h-96"
+              src="https://www.youtube.com/embed/-yxpUam5LRA"
+              title="GMAC Installation"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
@@ -51,20 +60,16 @@ const GroupsMonitoring = () => {
         <section className="mb-6 text-center">
           <h2 className="text-2xl font-semibold mb-2 text-primary">התקנה בדפדפן הכרום</h2>
           <p className="mb-4">התקינו את התוסף בקליק אחד</p>
-          <a
-            href="https://chromewebstore.google.com/detail/groupsmonitoring/hhkacbdgmmhlbfkfmlddnbaimkopgibk?authuser=0&hl=en-GB"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block px-4 py-2 bg-primary text-white rounded-md hover:bg-primary-dark transition-colors"
-          >
-            התקינו את התוסף
-          </a>
         </section>
 
         {/* סקציה 6 */}
         <section className="mb-6 text-center">
           <h2 className="text-2xl font-semibold mb-2 text-primary">התקנה</h2>
-          <p className="mb-2">עלות חודשית: ₪349</p>
+          <p className="mb-2">5 ימי ניסיון חינם!</p>
+          <p className="mb-2">עלות חודשית: ₪35</p>
+          <p className="mb-2">₪55</p>
+          <p className="mb-2">חיסכון של 36%</p>
+          <p className="mb-2">5 ימי ניסיון ללא עלות</p>
           <p className="mb-2">ביטול בכל עת</p>
           <p className="mb-4">ללא התחייבות</p>
         </section>
@@ -74,36 +79,44 @@ const GroupsMonitoring = () => {
           <h2 className="text-2xl font-semibold mb-2 text-primary">שאלות ותשובות נפוצות</h2>
           <div className="space-y-4">
             <details className="rounded border bg-gray-100 p-2">
-              <summary className="cursor-pointer">שאלה: האם ניתן לסרוק כל קבוצה?</summary>
-              <p className="mt-2">תשובה: אכן, ניתן לסרוק כל קבוצה. על מנת לסרוק קבוצה פרטית יש להצטרף אליה.</p>
+              <summary className="cursor-pointer">שאלה: האם ניתן להשתמש אם התוסף עבור כמה קבוצות שאני מנהל/ת?</summary>
+              <p className="mt-2">תשובה: כן. ובנוסף, עבור כל קבוצה התוסף יצור קובץ נפרד שאליו ישמרו הנתונים.</p>
             </details>
             <details className="rounded border bg-gray-100 p-2">
-              <summary className="cursor-pointer">שאלה: האם ניתן לבחור כמה מילות חיפוש שאני רוצה?</summary>
-              <p className="mt-2">תשובה: וודאי. וגם ניתן לבחור ולהגדיר מילים שונות עבור כל קבוצה. תוכלו לעשות הגדרות חיפוש חכמות כולל ביטוי מדויק או גמיש, צירופי מילים, הוצאת מילים ועוד.</p>
+              <summary className="cursor-pointer">שאלה: האם התשובות נאספות באופן אוטומטי לחלוטין?</summary>
+              <p className="mt-2">תשובה: לא. יש לאסוף את הנתונים בכל פעם לפני שמאשרים את בקשות ההצטרפות לקבוצה, על ידי לחיצה על כפתור Collect.</p>
             </details>
             <details className="rounded border bg-gray-100 p-2">
-              <summary className="cursor-pointer">שאלה: עם איזה פרופיל פייסבוק התוסף משתמש לסריקה?</summary>
-              <p className="mt-2">תשובה: התוסף סורק את הקבוצות בעזרת פרופיל הפייסבוק שמחובר בדפדפן הכרום ולכן ניתן לבחור כל פרופיל פייסבוק וכן להחליף אותו בכל עת.</p>
+              <summary className="cursor-pointer">שאלה: אם לוחצים על Collect כמה פעמים, האם הנתונים יופיעו בקובץ כמה פעמים?</summary>
+              <p className="mt-2">תשובה: לא. הנתונים נאספים פעם אחת על מנת לא ליצור כפילויות, אלא אם כן אחת התשובות השתנתה ואז הנתונים ירשמו מחדש.</p>
             </details>
             <details className="rounded border bg-gray-100 p-2">
-              <summary className="cursor-pointer">שאלה: האם ניתן לשנות את הקבוצות ואת מילות החיפוש מתי שאני רוצה?</summary>
-              <p className="mt-2">תשובה: כן! כל ההגדרות נמצאות בגליון גוגלשיטס שלך, שנמצא אצלך.</p>
+              <summary className="cursor-pointer">שאלה: מה יקרה אם אשנה את שאלות הכניסה לקבוצה?</summary>
+              <p className="mt-2">תשובה: התוסף יצור עמודות חדשות בגוגלשיטס עם כותרות השאלות החדשות, וירשום את התשובות המתאימות תחתיהן.</p>
             </details>
             <details className="rounded border bg-gray-100 p-2">
-              <summary className="cursor-pointer">שאלה: האם יש סכנה שפייסבוק יחסום אותי?</summary>
-              <p className="mt-2">תשובה: אנחנו לא נתקלנו מעולם במקרה כזה. הדבר היחיד שעלול לקרות הוא השעייה זמנית (לכמה שעות) לפעולה הספציפית של פתיחת קבוצת פייסבוק. שאר הפעולות, כמו למשל לגלול בפיד ולכתוב לא יושעו, וגם זה נדיר ביותר וקורה רק אם סורקים ללא הפסקות, ובשביל זה אנחנו מגדירים הפסקות בהגדרות התוסף.</p>
+              <summary className="cursor-pointer">שאלה: האם הנתונים שאספתי יכולים ללכת לאיבוד לאחר סיום המנוי?</summary>
+              <p className="mt-2">תשובה: לא! הנתונים נשמרים בגוגלשיטס ששייך למנוי, תחת חשבון הגוגל, ותמיד ניתן למצוא אותו ב: https://drive.google.com</p>
             </details>
             <details className="rounded border bg-gray-100 p-2">
-              <summary className="cursor-pointer">שאלה: האם המחשב שלי צריך להיות דלוק?</summary>
-              <p className="mt-2">תשובה: התוסף פועל על דפדפן הכרום שלכם ועליו להיות פתוח. אם תסגרו את דפדפן הכרום שעליו פועל התוסף או שתכבו את המחשב, התוסף יפסיק לפעול עד שתדליקו את המחשב. ישנה אפשרות להפעיל את התוכנה על מחשב מרוחק, שלי, שפועל 24/7, בתוספת של 100 ש"ח לחודש.</p>
+              <summary className="cursor-pointer">שאלה: אם אני מבטל/ת את התוסף לאחר 4 ימים, האם יהיה לי חיוב כלשהוא?</summary>
+              <p className="mt-2">תשובה: לא! יש 5 ימי ניסיון ללא עלות וללא התחייבות, וניתן לבטל את המנוי לפני היום החמישי ללא כל חיוב.</p>
             </details>
             <details className="rounded border bg-gray-100 p-2">
-              <summary className="cursor-pointer">שאלה: האם ההתראות מגיעות אלינו מיד עם פרסום הפוסט בקבוצה?</summary>
-              <p className="mt-2">תשובה: ההתראות אינן מיידיות, משום שלוקח זמן להשלים סבב סריקות וצריך גם זמני המתנה, ולכן עבור פוסט שעלה לקבוצה יתכן ונקבל התראה תוך כמה דקות, או לאחר שעה ויותר, תלוי במספר הקבוצות שאנו סורקים ובהגדרות שלנו.</p>
+              <summary className="cursor-pointer">שאלה: לאן ישלחו החשבוניות?</summary>
+              <p className="mt-2">תשובה: החשבוניות נשלחות באופן אוטומטי לאימייל שאיתו נרשמתם שזהו אותו אימייל של חשבון הכרום תחתיו התקנתם את התוסף. לא ניתן להחליף את האימייל לקבלת חשבונית ללא החלפה של חשבון הכרום שעליו התוסף מותקן ותחתיו חשבון הפייסבוק שלכם פעיל.</p>
             </details>
             <details className="rounded border bg-gray-100 p-2">
-              <summary className="cursor-pointer">שאלה: האם אפשר למחוק שורות מהגוגלשיטס עם התוצאות?</summary>
-              <p className="mt-2">תשובה: הפוסטים שמופיעים בגוגלשיטס משמשים עבור התוסף על מנת שלא ירשום אותם בשנית כשיתקל בהם. מחיקה של שורות מהגוגלשיטס תגרום לרישום חוזר עבור אותם פוסטים במידה ויימצאו בתחום הזמן שהגדרנו לחיפוש.</p>
+              <summary className="cursor-pointer">שאלה: כמה ימים אחורה התוסף מאתר פוסטים?</summary>
+              <p className="mt-2">תשובה: בהגדרות התוסף ישנה אפשרות להגדיר את מספר הימים שנרצה שהתוסף יגלול אחורה לאיתור פוסטים.</p>
+            </details>
+            <details className="rounded border bg-gray-100 p-2">
+              <summary className="cursor-pointer">שאלה: האם ניתן לעשות חיפוש בכל שפה?</summary>
+              <p className="mt-2">תשובה: כן.</p>
+            </details>
+            <details className="rounded border bg-gray-100 p-2">
+              <summary className="cursor-pointer">שאלה: איך ומתי ניתן לבטל את המנוי?</summary>
+              <p className="mt-2">תשובה: המנוי הוא חודשי והוא מתחדש מדי חודש באותו היום שבו התחלתם את המנוי. ניתן לפנות אלי עד 24 שעות לפני חידוש המנוי על מנת לבטלו.</p>
             </details>
           </div>
         </section>
@@ -113,4 +126,4 @@ const GroupsMonitoring = () => {
   );
 };
 
-export default GroupsMonitoring;
+export default Gmac;
