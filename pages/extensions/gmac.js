@@ -163,9 +163,9 @@ export default function GmacPage() {
                 <section className="relative py-20 bg-gradient-to-r from-blue-900/90 to-purple-900/90 text-white overflow-hidden">
                     <div className="container mx-auto px-4">
                         <div className="max-w-4xl mx-auto text-center">
-                            <h1 className="text-4xl md:text-5xl font-bold mb-6 animate-fade-in">
+                            <h1 className="text-4xl md:text-5xl font-bold mb-6 animate-fade-in text-indigo-600">
                                 GMAC - שומר התשובות לשאלות הכניסה לקבוצה
-                                <span className="block text-2xl md:text-3xl text-indigo-200 mt-4 animate-fade-in">
+                                <span className="block text-2xl md:text-3xl text-indigo-600 mt-4 animate-fade-in">
                                     התוסף הפופולרי למנהלי ומנהלות קבוצות פייסבוק
                                 </span>
                             </h1>
@@ -184,7 +184,7 @@ export default function GmacPage() {
                                         <div className="flex-shrink-0 w-8 h-8 bg-indigo-600 text-white rounded-full flex items-center justify-center">
                                             {index + 1}
                                         </div>
-                                        <p className="text-lg">{step}</p>
+                                        <p className="text-lg text-indigo-600">{step}</p>
                                     </div>
                                 ))}
                             </div>
