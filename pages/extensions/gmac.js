@@ -6,9 +6,9 @@ import { useState } from 'react';
 //  VideoPlayer Component
 const VideoPlayer = ({ videoId }) => {
     return (
-        <div className="aspect-video">
+        <div className="relative aspect-w-16 aspect-h-9">
             <iframe
-                className="w-full h-full"
+                className="absolute inset-0 w-full h-full"
                 src={`https://www.youtube.com/embed/${videoId}`}
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
