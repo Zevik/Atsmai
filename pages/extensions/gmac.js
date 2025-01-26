@@ -2,14 +2,13 @@
 
 import { Briefcase, Shield, Clock } from 'lucide-react';
 import { useState } from 'react';
-import Header from '@/components/Header'; // הוסף את הייבוא של Header
 
 //  VideoPlayer Component
 const VideoPlayer = ({ videoId }) => {
     return (
-        <div className="relative w-full max-w-4xl mx-auto aspect-w-16 aspect-h-9">
+        <div className="aspect-video">
             <iframe
-                className="absolute inset-0 w-full h-full"
+                className="w-full h-full"
                 src={`https://www.youtube.com/embed/${videoId}`}
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -161,12 +160,12 @@ export default function GmacPage() {
            
             <main className="flex-grow pt-20">
                 {/* Hero Section */}
-                <section className="relative py-20 bg-gradient-to-r from-blue-900/90 to-purple-900/90 text-white">
+                <section className="relative py-20 bg-gradient-to-r from-blue-900/90 to-purple-900/90 text-white overflow-hidden">
                     <div className="container mx-auto px-4">
                         <div className="max-w-4xl mx-auto text-center">
                             <h1 className="text-4xl md:text-5xl font-bold mb-6 animate-fade-in">
                                 GMAC - שומר התשובות לשאלות הכניסה לקבוצה
-                                <span className="block text-2xl md:text-3xl text-indigo-200 mt-4 animate-[fadeIn_0.5s_ease-out_0.3s_forwards]">
+                                <span className="block text-2xl md:text-3xl text-indigo-200 mt-4 opacity-0 animate-[fadeIn_0.5s_ease-out_0.3s_forwards]">
                                     התוסף הפופולרי למנהלי ומנהלות קבוצות פייסבוק
                                 </span>
                             </h1>
