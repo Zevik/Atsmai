@@ -6,7 +6,7 @@ import { useState } from 'react';
 //  VideoPlayer Component
 const VideoPlayer = ({ videoId }) => {
     return (
-        <div className="relative aspect-w-16 aspect-h-9">
+        <div className="aspect-video">
             <iframe
                 className="w-full h-full"
                 src={`https://www.youtube.com/embed/${videoId}`}
@@ -43,7 +43,7 @@ const FaqAccordion = ({ faqItems }) => {
                     </button>
                     <div
                         id={`faq-panel-${index}`}
-                        className={`p-4 bg-gray-50 transition-max-height duration-300 ease-in-out ${openIndex === index ? 'max-h-500' : 'max-h-0'} overflow-hidden`}
+                        className={`bg-gray-50 overflow-hidden transition-all duration-300 ${openIndex === index ? 'max-h-[500px] p-4' : 'max-h-0 p-0'}`}
                     >
                         <p className="text-gray-700">{item.answer}</p>
                     </div>
