@@ -7,7 +7,7 @@ import Header from '@/components/Header'; // הוסף את הייבוא של Hea
 //  VideoPlayer Component
 const VideoPlayer = ({ videoId }) => {
     return (
-        <div className="relative aspect-w-16 aspect-h-9">
+        <div className="relative w-full max-w-4xl mx-auto aspect-w-16 aspect-h-9">
             <iframe
                 className="absolute inset-0 w-full h-full"
                 src={`https://www.youtube.com/embed/${videoId}`}
