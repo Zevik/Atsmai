@@ -44,6 +44,11 @@ const Gmac = () => {
               allowFullScreen
             ></iframe>
           </div>
+        </section>
+
+        {/* סקציה 5 */}
+        <section className="mb-6">
+          <h2 className="text-2xl font-semibold mb-2 text-primary">איך מתקינים בקלות?</h2>
           <div className="aspect-w-16 aspect-h-9 mb-4">
             <iframe
               className="w-full h-64 md:h-96"
@@ -56,25 +61,30 @@ const Gmac = () => {
           </div>
         </section>
 
-        {/* סקציה 5 */}
+        {/* סקציה 6 */}
         <section className="mb-6 text-center">
           <h2 className="text-2xl font-semibold mb-2 text-primary">התקנה בדפדפן הכרום</h2>
           <p className="mb-4">התקינו את התוסף בקליק אחד</p>
+          <a
+            href="https://chromewebstore.google.com/detail/gmac-%E2%80%94-group-answers-coll/omefdeapnicniondiefejngddkjikegn"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block px-4 py-2 bg-primary text-white rounded-md hover:bg-primary-dark transition-colors"
+          >
+            התקינו את התוסף
+          </a>
         </section>
 
-        {/* סקציה 6 */}
+        {/* סקציה 7 */}
         <section className="mb-6 text-center">
           <h2 className="text-2xl font-semibold mb-2 text-primary">התקנה</h2>
-          <p className="mb-2">5 ימי ניסיון חינם!</p>
           <p className="mb-2">עלות חודשית: ₪35</p>
-          <p className="mb-2">₪55</p>
-          <p className="mb-2">חיסכון של 36%</p>
           <p className="mb-2">5 ימי ניסיון ללא עלות</p>
           <p className="mb-2">ביטול בכל עת</p>
           <p className="mb-4">ללא התחייבות</p>
         </section>
 
-        {/* סקציה 7 */}
+        {/* סקציה 8 */}
         <section className="mb-6">
           <h2 className="text-2xl font-semibold mb-2 text-primary">שאלות ותשובות נפוצות</h2>
           <div className="space-y-4">
