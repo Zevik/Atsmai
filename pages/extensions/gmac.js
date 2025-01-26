@@ -6,9 +6,9 @@ import { useState } from 'react';
 //  VideoPlayer Component
 const VideoPlayer = ({ videoId }) => {
     return (
-        <div className="relative aspect-video h-[350px] md:h-[450px]">
+        <div className="relative w-full h-[250px] md:h-[450px]">
             <iframe
-                className="w-full h-full"
+                className="absolute inset-0 w-full h-full"
                 src={`https://www.youtube.com/embed/${videoId}`}
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -163,9 +163,9 @@ export default function GmacPage() {
                 <section className="relative py-20 bg-gradient-to-r from-blue-900/90 to-purple-900/90 text-white overflow-hidden">
                     <div className="container mx-auto px-4">
                         <div className="max-w-4xl mx-auto text-center">
-                            <h1 className="text-4xl md:text-5xl font-bold mb-6 animate-fade-in text-indigo-600">
+                            <h1 className="text-4xl md:text-5xl font-bold mb-6 animate-fade-in text-purple-600">
                                 GMAC - שומר התשובות לשאלות הכניסה לקבוצה
-                                <span className="block text-2xl md:text-3xl text-indigo-600 mt-4 animate-fade-in">
+                                <span className="block text-2xl md:text-3xl text-purple-600 mt-4 animate-fade-in">
                                     התוסף הפופולרי למנהלי ומנהלות קבוצות פייסבוק
                                 </span>
                             </h1>
