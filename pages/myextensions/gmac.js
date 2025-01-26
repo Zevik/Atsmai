@@ -77,8 +77,7 @@ const Gmac = () => {
 
         {/* סקציה 7 */}
         <section className="mb-6 text-center">
-          <h2 className="text-2xl font-semibold mb-2 text-primary">התקנה</h2>
-          <p className="mb-2">עלות חודשית: ₪35</p>
+          <h2 className="text-2xl font-semibold mb-2 text-primary">עלות חודשית: ₪35</h2>
           <p className="mb-2">5 ימי ניסיון ללא עלות</p>
           <p className="mb-2">ביטול בכל עת</p>
           <p className="mb-4">ללא התחייבות</p>
