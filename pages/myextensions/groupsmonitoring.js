@@ -33,7 +33,7 @@ const GroupsMonitoring = () => {
         </section>
 
         {/* סקציה 4 */}
-        <section className="mb-6">
+        <section className="mb-6 text-center">
           <h2 className="text-2xl font-semibold mb-2 text-primary">GroupsMonitoring בפעולה</h2>
           <div className="aspect-w-16 aspect-h-9 mb-4">
             <iframe
@@ -63,8 +63,7 @@ const GroupsMonitoring = () => {
 
         {/* סקציה 6 */}
         <section className="mb-6 text-center">
-          <h2 className="text-2xl font-semibold mb-2 text-primary">התקנה</h2>
-          <p className="mb-2">עלות חודשית: ₪349</p>
+          <h2 className="text-2xl font-semibold mb-2 text-primary">עלות חודשית: ₪349</h2>
           <p className="mb-2">ביטול בכל עת</p>
           <p className="mb-4">ללא התחייבות</p>
         </section>
