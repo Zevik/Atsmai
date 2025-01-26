@@ -5,9 +5,6 @@ export default function Home() {
     <div className="min-h-screen bg-secondary/20 overflow-x-hidden p-4 flex items-center justify-center">
       <div className="text-center">
         <h1 className="text-5xl font-bold text-primary animate-bounce mb-4">
-          כולם באותו גוגל.
-        </h1>
-        <h1 className="text-5xl font-bold text-primary animate-bounce mb-4">
           אוטומציות לפייסבוק
         </h1>
         <h1 className="text-5xl font-bold text-primary animate-bounce mb-4">

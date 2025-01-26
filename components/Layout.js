@@ -35,7 +35,7 @@ export default function Layout({ children }) {
               <input type="hidden" name="form-name" value="contact" />
               <textarea
                 name="message"
-                className="w-full max-w-md p-2 rounded-md text-black bg-primary border resize-none"
+                className="w-full max-w-md p-2 rounded-md text-black bg-primary border resize-none mb-2"
                 rows="2"
                 required
               ></textarea>
