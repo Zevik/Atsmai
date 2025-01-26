@@ -6,7 +6,7 @@ const GroupsMonitoring = () => {
       <div className="w-full max-w-4xl mx-auto bg-white p-6 md:p-8 rounded-lg shadow-lg overflow-hidden">
         
         {/* סקציה 1 */}
-        <section className="mb-6">
+        <section className="mb-6 text-center">
           <h1 className="text-3xl font-bold mb-2 text-primary">סורקת קבוצות מוצאת לקוחות - GroupsMonitoring</h1>
           <p className="mb-4">הכלי החזק ביותר לניטור קבוצות פייסבוק, עבור עסקים ונותני שירות</p>
         </section>
@@ -48,13 +48,21 @@ const GroupsMonitoring = () => {
         </section>
 
         {/* סקציה 5 */}
-        <section className="mb-6">
+        <section className="mb-6 text-center">
           <h2 className="text-2xl font-semibold mb-2 text-primary">התקנה בדפדפן הכרום</h2>
           <p className="mb-4">התקינו את התוסף בקליק אחד</p>
+          <a
+            href="https://chromewebstore.google.com/detail/groupsmonitoring/hhkacbdgmmhlbfkfmlddnbaimkopgibk?authuser=0&hl=en-GB"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block px-4 py-2 bg-primary text-white rounded-md hover:bg-primary-dark transition-colors"
+          >
+            התקינו את התוסף
+          </a>
         </section>
 
         {/* סקציה 6 */}
-        <section className="mb-6">
+        <section className="mb-6 text-center">
           <h2 className="text-2xl font-semibold mb-2 text-primary">התקנה</h2>
           <p className="mb-2">עלות חודשית: ₪349</p>
           <p className="mb-2">ביטול בכל עת</p>
