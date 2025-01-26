@@ -42,6 +42,7 @@ export default function Navigation() {
       subLinks: [
         { href: '/myextensions/gmac', text: 'Gmac' },
         { href: '/myextensions/groupsmonitoring', text: 'GroupsMonitoring' },
+        { href: '/myextensions/replycomments', text: 'ReplyComments' }, // Added replycomments link
       ],
     },
   ];
