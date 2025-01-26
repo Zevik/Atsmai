@@ -2,6 +2,7 @@
 
 import { Briefcase, Shield, Clock } from 'lucide-react';
 import { useState } from 'react';
+import Header from '@/components/Header'; // הוסף את הייבוא של Header
 
 //  VideoPlayer Component
 const VideoPlayer = ({ videoId }) => {
