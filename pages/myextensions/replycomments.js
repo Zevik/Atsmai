@@ -54,7 +54,7 @@ const ReplyComments = () => {
             href="https://chromewebstore.google.com/detail/replyallcomments/nndlamggeoglkbnpgipbhciechdnbpcg"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block px-4 py-2 bg-primary text-white rounded-md hover:bg-primary-dark transition-colors w-48"
+            className="block w-full px-4 py-2 bg-primary text-white rounded-md hover:bg-primary-dark transition-colors"
           >
             התקינו את התוסף
           </a>
