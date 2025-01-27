@@ -126,7 +126,7 @@ export default function Navigation() {
                     <>
                       <button
                         onClick={() => toggleDropdown(link.text)}
-                        className={`block px-3 py-2 rounded-md text-white text-right hover:bg-primary/80 transition-colors`}
+                        className={`block px-3 py-2 rounded-md text-blue-500 text-right hover:bg-primary/80 transition-colors`} // Changed to blue
                       >
                         {link.text}
                       </button>
@@ -148,7 +148,7 @@ export default function Navigation() {
                   ) : (
                     <Link href={link.href}>
                       <a
-                        className={`block px-3 py-2 rounded-md text-white text-right hover:bg-primary/80 transition-colors`}
+                        className={`block px-3 py-2 rounded-md text-blue-500 text-right hover:bg-primary/80 transition-colors`} // Changed to blue
                         onClick={handleLinkClick}
                       >
                         {link.text}
