@@ -87,7 +87,7 @@ export default function Navigation() {
           </div>
           
           {/* Logo for Desktop */}
-          <div className="hidden md:block">
+          <div className="hidden md:block md:order-2"> {/* Added md:order-2 */}
             <Link href="/">
               <a>
                 <img src="/images/logo.png" alt="Logo" className="h-8 w-auto" />
@@ -96,7 +96,7 @@ export default function Navigation() {
           </div>
 
           {/* Desktop navigation */}
-          <div className="hidden md:flex md:items-center md:space-x-4 rtl:space-x-reverse">
+          <div className="hidden md:flex md:items-center md:space-x-4 rtl:space-x-reverse md:order-1"> {/* Added md:order-1 */}
             {links.map(link => (
               <div key={link.text} className="relative group">
                 {link.subLinks.length > 0 ? (
