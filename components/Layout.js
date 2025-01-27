@@ -29,7 +29,7 @@ export default function Layout({ children }) {
         <div className="mt-6">
           {!submitted && (
             <>
-              <h2 className="text-xl font-semibold mb-2">תעדכן</h2>
+              {/* Removed "תעדכן" */}
               <h2 className="text-xl font-semibold mb-2">כתבו לי</h2>
             </>
           )}
@@ -46,7 +46,7 @@ export default function Layout({ children }) {
               ></textarea>
               <button
                 type="submit"
-                className="mt-2 px-4 py-2 bg-secondary text-primary rounded-md hover:bg-secondary-dark transition-colors"
+                className="mt-4 px-4 py-2 bg-secondary text-primary rounded-md hover:bg-secondary-dark transition-colors" // Changed mt-2 to mt-4
               >
                 שלח
               </button>
