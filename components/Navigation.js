@@ -10,6 +10,27 @@ export default function Navigation() {
   const links = [
     { href: '/', text: 'דף הבית', subLinks: [] },
     {
+      text: 'עולם הקהילות',
+      href: '/communities',
+      subLinks: [
+        { href: '/communities/judges-and-police', text: 'שופטים ושוטרים' },
+        { href: '/communities/monetization-and-pricing', text: 'מוניטיזציה ותמחור' },
+        { href: '/communities/marketing-writing', text: 'כתיבה שיווקית' },
+        { href: '/communities/group-managers-legal-responsibility', text: 'אחריות משפטית' },
+        { href: '/communities/monetization', text: 'מוניטיזציה' },
+        { href: '/communities/shaming', text: 'שיימינג' },
+      ],
+    },
+    {
+      text: 'התוספים שלי',
+      href: null,
+      subLinks: [
+        { href: '/myextensions/gmac', text: 'Gmac' },
+        { href: '/myextensions/groupsmonitoring', text: 'GroupsMonitoring' },
+        { href: '/myextensions/replycomments', text: 'ReplyComments' },
+      ],
+    },
+    {
       text: 'עצמאים ועצמאיות',
       href: null,
       subLinks: [
@@ -21,28 +42,6 @@ export default function Navigation() {
         { href: '/small-business', text: 'עוסק זעיר' },
         { href: '/cash-fund', text: 'קרן כספית' },
         { href: '/self-employed-in-israel', text: 'עצמאים בישראל' },
-      ],
-    },
-    {
-      text: 'עולם הקהילות', // שונה מ'כלמיני'
-      href: '/communities',    // עדכון ה-URL ל'communities'
-      subLinks: [
-        { href: '/communities/judges-and-police', text: 'שופטים ושוטרים' }, // עדכון ה-URL ל'/communities/judges-and-police'
-        { href: '/communities/monetization-and-pricing', text: 'מוניטיזציה ותמחור' }, // הוסף קישור חדש
-        { href: '/communities/marketing-writing', text: 'כתיבה שיווקית' }, // הוסף קישור חדש
-        { href: '/communities/group-managers-legal-responsibility', text: 'אחריות משפטית' }, // הוסף קישור חדש
-        { href: '/communities/monetization', text: 'מוניטיזציה' }, // הוסף קישור חדש
-        { href: '/communities/shaming', text: 'שיימינג' }, // הוסף קישור חדש
-      ],
-    },
-    // Added "התוספים שלי" section
-    {
-      text: 'התוספים שלי',
-      href: null,
-      subLinks: [
-        { href: '/myextensions/gmac', text: 'Gmac' },
-        { href: '/myextensions/groupsmonitoring', text: 'GroupsMonitoring' },
-        { href: '/myextensions/replycomments', text: 'ReplyComments' }, // Added replycomments link
       ],
     },
   ];
