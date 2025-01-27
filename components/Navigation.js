@@ -62,15 +62,6 @@ export default function Navigation() {
       <div className="max-w-4xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           
-          {/* Logo for Mobile */}
-          <div className="md:hidden">
-            <Link href="/">
-              <a>
-                <img src="/images/logo.png" alt="Logo" className="h-8 w-auto" />
-              </a>
-            </Link>
-          </div>
-          
           {/* Mobile menu button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
@@ -86,6 +77,15 @@ export default function Navigation() {
             </svg>
           </button>
 
+          {/* Logo for Mobile */}
+          <div className="md:hidden">
+            <Link href="/">
+              <a>
+                <img src="/images/logo.png" alt="Logo" className="h-8 w-auto" />
+              </a>
+            </Link>
+          </div>
+          
           {/* Logo for Desktop */}
           <div className="hidden md:block">
             <Link href="/">
