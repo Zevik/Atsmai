@@ -68,6 +68,29 @@ const ReplyComments = () => {
         </section>
 
         {/* סקציה 7 */}
+        <section className="mb-6 text-center">
+          <h2 className="text-2xl font-semibold mb-2 text-primary">צרו קשר</h2>
+          <div className="flex flex-col items-center space-y-4">
+            <a
+              href="https://wa.me/972546609385"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-4 py-2 bg-primary text-white rounded-md hover:bg-primary-dark transition-colors"
+            >
+              ליצירת קשר בוואטסאפ
+            </a>
+            <a
+              href="mailto:fb.tools.zevik@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-4 py-2 bg-primary text-white rounded-md hover:bg-primary-dark transition-colors"
+            >
+              ליצירת קשר באימייל
+            </a>
+          </div>
+        </section>
+
+        {/* סקציה 8 */}
         <section className="mb-6">
           <h2 className="text-2xl font-semibold mb-2 text-primary">שאלות ותשובות נפוצות</h2>
           <div className="space-y-4">
