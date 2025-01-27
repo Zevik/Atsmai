@@ -27,7 +27,12 @@ export default function Layout({ children }) {
       <footer className="bg-primary text-white p-4 text-center">
         {/* הוסף טופס Netlify Forms */}
         <div className="mt-6">
-          {!submitted && <h2 className="text-xl font-semibold mb-2">רשמו הערה</h2>}
+          {!submitted && (
+            <>
+              <h2 className="text-xl font-semibold mb-2">תעדכן</h2>
+              <h2 className="text-xl font-semibold mb-2">כתבו לי</h2>
+            </>
+          )}
           {submitted ? (
             <p className="text-blue-500">תודה. ההודעה נשלחה.</p>
           ) : (
@@ -48,7 +53,7 @@ export default function Layout({ children }) {
             </form>
           )}
         </div>
-        <p>
+        <p className="mt-4">
           כל הזכויות שמורות. {' '}
           <a 
             href="https://wa.me/972546609385" 
