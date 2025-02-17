@@ -2,17 +2,17 @@ import React from 'react';
 
 const WhyNotHaredim = () => {
   return (
-      <div className="min-h-screen bg-secondary/20 overflow-x-hidden p-4">
-        <div className="w-full max-w-4xl mx-auto bg-white p-6 md:p-8 rounded-lg shadow-lg overflow-hidden">
-          <h1 className="text-3xl font-bold text-primary mb-4 text-center">למה אסור לכתוב את המילה 'חרדים'?</h1>
+    <div className="min-h-screen bg-secondary/20 overflow-x-hidden p-4">
+      <div className="w-full max-w-4xl mx-auto bg-white p-6 md:p-8 rounded-lg shadow-lg overflow-hidden">
+        <h1 className="text-3xl font-bold text-primary mb-4 text-center">למה אסור לכתוב את המילה 'חרדים'?</h1>
 
-          <section className="mb-4">
-            <p>תארו לכם כותרות בעיתון:</p>
-            <p><b>"חילוני התפרע בכביש"</b></p>
-            <p><b>"חבורת חילונים התפרעו באלימות כנגד שוטרים"</b></p>
-            <p><b>"4 ילדים חילונים גנבו כסף לקשישה"</b></p>
-            <p><b>"חילוני תקף מינית את השכנה שלו"</b></p>
-            <p>נשמע לכם תקין? לא! כי מי שהתפרע, התפרע, ומי שפשע פשע.</p>
+        <section className="mb-4 p-4 rounded border bg-gray-100">
+          <p>תארו לכם כותרות בעיתון:</p>
+          <p><b>"חילוני התפרע בכביש"</b></p>
+          <p><b>"חבורת חילונים התפרעו באלימות כנגד שוטרים"</b></p>
+          <p><b>"4 ילדים חילונים גנבו כסף לקשישה"</b></p>
+          <p><b>"חילוני תקף מינית את השכנה שלו"</b></p>
+          <p>נשמע לכם תקין? לא! כי מי שהתפרע, התפרע, ומי שפשע פשע.</p>
             <p>אז למה כשזה מגיע ל"חרדים", יש להם כינוי, ולכל אחד יש פתאום אחריות "קולקטיבית" על כל מי שלובש שחור לבן?</p>
           </section>
 
