@@ -44,6 +44,13 @@ export default function Navigation() {
         { href: '/self-employed-in-israel', text: 'עצמאים בישראל' },
       ],
     },
+    {
+      text: 'סטריאוטיפים',
+      href: null,
+      subLinks: [
+        { href: '/stereotypes/why-not-haredim', text: 'למה אסור לכתוב חרדים' },
+      ],
+    },
   ];
 
   const isActive = (path) => router.pathname === path;
