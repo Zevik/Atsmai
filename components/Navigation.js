@@ -50,6 +50,7 @@ export default function Navigation() {
       subLinks: [
         { href: '/stereotypes/why-not-haredim', text: 'למה אסור לכתוב חרדים' },
         { href: '/stereotypes/the-haredim', text: 'החרדים' },
+        { href: '/stereotypes/war-on-stereotypical-language', text: 'מלחמה בשפה סטריאוטיפית' },
       ],
     },
   ];
