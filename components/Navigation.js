@@ -11,7 +11,7 @@ export default function Navigation() {
     { href: '/', text: 'דף הבית', subLinks: [] },
     {
       text: 'עולם הקהילות',
-      href: '/communities',
+      href: null,
       subLinks: [
         { href: '/communities/judges-and-police', text: 'שופטים ושוטרים' },
         { href: '/communities/monetization-and-pricing', text: 'מוניטיזציה ותמחור' },
@@ -19,6 +19,7 @@ export default function Navigation() {
         { href: '/communities/group-managers-legal-responsibility', text: 'אחריות משפטית' },
         { href: '/communities/monetization', text: 'מוניטיזציה' },
         { href: '/communities/shaming', text: 'שיימינג' },
+        { href: '/communities/insights', text: 'תובנות' },
       ],
     },
     {
