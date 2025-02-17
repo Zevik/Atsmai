@@ -20,6 +20,7 @@ export default function Navigation() {
         { href: '/communities/monetization', text: 'מוניטיזציה' },
         { href: '/communities/shaming', text: 'שיימינג' },
         { href: '/communities/insights', text: 'תובנות' },
+        { href: '/communities/urban-identity', text: 'זהות עירונית' },
       ],
     },
     {
