@@ -1,9 +1,7 @@
 import React from 'react';
-import Layout from '../../components/Layout';
 
 const WhyNotHaredim = () => {
   return (
-    <Layout>
       <div className="min-h-screen bg-secondary/20 overflow-x-hidden p-4">
         <div className="w-full max-w-4xl mx-auto bg-white p-6 md:p-8 rounded-lg shadow-lg overflow-hidden">
           <h1 className="text-3xl font-bold text-primary mb-4 text-center">למה אסור לכתוב את המילה 'חרדים'?</h1>
@@ -96,7 +94,6 @@ const WhyNotHaredim = () => {
 
         </div>
       </div>
-    </Layout>
   );
 };
 
