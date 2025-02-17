@@ -88,10 +88,9 @@ const WhyNotHaredim = () => {
           <p>הם מעוורים אותנו מלראות את האדם, את בחירותיו, את ייחודו, את ליבו, אהבתו, פחדיו, ותקוותיו.</p>
         </section>
 
-        <section className="mb-4 p-4 rounded border border-gray-300 bg-white">
+        <section className="mb-4 p-4 rounded border border-gray-300 bg-transparent">
           <p><b>מי הם בעצם "החרדים"?</b></p>
         </section>
-
       </div>
     </div>
   );
